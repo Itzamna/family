@@ -1,0 +1,12 @@
+
+<div class="thumbnails thumbnail-style">
+  <a class="fancybox" data-rel="fancybox-button"   {% if include.alt %} title="{{ include.alt }}"{% endif %} href="../assets/img/photo/{{ include.photo }}">
+    <img class="img-responsive" src="../assets/img/photo/{{ include.photo }}" alt="">
+  </a>
+  {% if include.alt %} 
+  
+  <div class="caption">
+    <h3><a class="hover-effect" href="#">{{ include.alt }}</a></h3>
+  </div>
+{% endif %}
+</div>

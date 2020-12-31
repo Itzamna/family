@@ -1,0 +1,15 @@
+- url: index
+  alt: Главная
+  ico: fa-home
+  
+- url: alesenko
+  alt: Алесенко
+  ico:  fa-angle-right
+  
+- url: belyaniny
+  alt: Белянины
+  ico: fa-angle-right
+
+- url: pankiny
+  alt: Панькины
+  ico: fa-angle-right

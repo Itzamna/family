@@ -1,0 +1,18 @@
+
+<div class="row">
+  {% for i in page.superbox %}
+
+    <div class="col-md-12">
+      <div class="thumbnails thumbnail-style">
+        <a class="fancybox" data-rel="fancybox-button" title="{{i.title}}" href="{{ site.url }}/assets/img/photo/shows/{{i.name}}">
+          <img class="img-responsive" src="{{ site.url }}/assets/img/photo/shows/{{i.name}}" alt=""/>
+        </a>
+        <div class="caption">
+          <h3><a class="hover-effect" href="#">{{i.title}}</a></h3>
+          <p>{{i.comment}}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div><!--/row-->
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="ru" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="ru" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="ru"> <!--<![endif]-->
+<head>
+  {% include head.html %}
+
+</head>
+<body class="header-fixed">
+	<div class="wrapper">
+		<div class="header-v6 header-classic-white header-sticky">
+			<nav class="navbar navbar-default" role="navigation" data-mcs-theme="minimal-dark">
+				<div class="menu-container">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-responsive-collapse">
+            {% include menu.html %}
+				</div>
+			</nav>
+		</div>
+
+		<div class="container content-sm">
+      {{ content }}
+    </div>
+	</div>
+
+
+	<!-- JS Global Compulsory -->
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/jquery/jquery-migrate.min.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- JS Implementing Plugins -->
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/back-to-top.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/jquery-appear.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/jquery.parallax.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/counter/waypoints.min.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/counter/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/scrollbar/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<!-- JS Customization -->
+	<script type="text/javascript" src="{{ site.url }}/assets/js/custom.js"></script>
+	<!-- JS Page Level -->
+	<script type="text/javascript" src="{{ site.url }}/assets/js/app.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/js/plugins/progress-bar.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/js/plugins/owl-carousel.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="{{ site.url }}/assets/js/plugins/fancy-box.js"></script>
+ 	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			App.init();
+			FancyBox.initFancybox();
+			StyleSwitcher.initStyleSwitcher();
+		});
+	</script>   
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+
+
+	<script type="text/javascript" src="{{ site.url }}/assets/js/plugins/style-switcher.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			App.init();
+			App.initCounter();
+			App.initParallaxBg();
+			App.initScrollBar();
+			FancyBox.initFancybox();
+			App.initSidebarMenuDropdown();
+			OwlCarousel.initOwlCarousel();
+			StyleSwitcher.initStyleSwitcher();
+			ProgressBar.initProgressBarHorizontal();
+		});
+	</script>
+  <script src="{{ site.url }}/assets/js/mousetrap.min.js?a4098"></script>
+  <script>
+  Mousetrap.bind('ctrl+shift+k', function(e) {
+    window.open('https://github.com/Itzamna/nkp-spitz/edit/gh-pages/{{page.path}}');
+  });
+  </script>  
+      <script type="text/javascript" src="{{ site.url }}/assets/plugins/tablesorter-master/dist/js/jquery.tablesorter.min.js"></script>
+      <script type="text/javascript" src="{{ site.url }}/assets/plugins/tablesorter-master/dist/js/jquery.tablesorter.widgets.min.js"></script> 
+  	<script>
+	$(function(){
+		$('#Mysorter').tablesorter();
+	});
+
+	</script>
+	<!--[if lt IE 9]>
+	<script src="{{ site.url }}/assets/plugins/respond.js"></script>
+	<script src="{{ site.url }}/assets/plugins/html5shiv.js"></script>
+	<script src="{{ site.url }}/assets/plugins/placeholder-IE-fixes.js"></script>
+	<![endif]-->
+</body>
+</html>
