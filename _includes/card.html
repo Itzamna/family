@@ -28,10 +28,11 @@
 
 
 
-      {% assign litters = site.data.family | group_by_exp:'f', "f['отец']"| sort:"name"  }} %}  
+      {% assign litters = site.data.family[page.menu] | group_by_exp:'f', "f['отец']"| sort:"name"  }} %}  
    {% for breed in litters %}
-        {% assign types = breed.items | group_by_exp:'m', "" %}
-          <h3 class="catalog">{{types.name}}<h3>           
+        {% assign types = breed.items | group_by_exp:'m', "m['мать']"| sort:"name" %}
+          <h3 class="catalog">{{types.name}}<h3>    
+            {{types}}
      {% endfor %}  
 
   <div class="hr"></div>
