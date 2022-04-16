@@ -8,6 +8,15 @@
         <a href="{{ site.url }}/assets/photo/{{member.photo}}" class="thickbox">
           <img src="{{ site.url }}/assets/photo/{{member.photo}}" class="img-fluid">
         </a>
+  {% if member.photo %}     
+  {% assign links = member.photo | split: ', '%}
+  {% for img in links %}
+    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photo/{{img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
+      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photo/{{img}}">
+    </a>
+  {% endfor %}         
+  {% endif %}       
+        
       </div>
     </div>
     <div class="col-md-8 col-xs-12 col-sm-12">
@@ -89,12 +98,20 @@
   <h3>Фотоальбом:</h3>
   
   <div class="pet-photo">
-    {% for photo in member.photos %}
-    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photos/{{photo.img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
-      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photos/{{photo.img}}">
+    {% for ph in member.photo %}
+    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photos/{{ph.img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
+      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photos/{{ph.img}}">
     </a>
   {% endfor %}
     </div>
+  
+  {% assign links = member.photo | split: ', '%}
+  {% for img in links %}
+    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photo/{{img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
+      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photo/{{img}}">
+    </a>
+  {% endfor %} 
+  
 </div>
 
 
