@@ -24,40 +24,25 @@
     </div>
   </div> 
 
+<h3>113</h3>
 
- {% if member.litters %}
-  <div class="row">  
-    <div class="col-md-12">
-      <h3> Пометы:</h3>
-      <p> {% for litter in member.litters %}
-      <a href="{{ site.url }}/litters/{{litter.link}}">Помет "{{litter.name}}"</a>&nbsp;</p>
-    </div>  
-  </div>     
- {% endfor %}
+
+
+      {% assign litters = site.data.family | group_by_exp:'f', "f['отец']"| sort:"name"  }} %}  
+   {% for breed in litters %}
+      {{litters}}
+        {% assign types = breed.items | group_by_exp:'m', "" %}
+          <h3 class="catalog">{{breed.name}}<h3>           
+        {{types}}
+     {% endfor %}  
       
-<h3>111</h3>
-
-<div class="container content  entry-content" >
-  <div class="row">
-    <div class="col-md-12">     
-      {% assign litters = site.data.family | group_by_exp:'f', 'm'| sort:"name" }} %}  
         {% for litter in litters %}
            <h3 class="catalog">{{litter.name}}<h3>           
 
      
       {% endfor %}  <!-- breed-->    
-      </div>
-  </div>
-</div>         
-      
 
 
-
-
-
-      
-  {% endif %} 
-  
   <div class="hr"></div>
 
   <div class="row">  
