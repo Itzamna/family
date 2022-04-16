@@ -4,27 +4,21 @@
   <h1>{{member.name}}</h1>
   <div class="row">
     <div class="col-md-4 col-xs-12 col-sm-12">
-      <div class="card-photo">
-        <a href="{{ site.url }}/assets/photo/{{member.photo}}" class="thickbox">
-          <img src="{{ site.url }}/assets/photo/{{member.photo}}" class="img-fluid">
-        </a>
   {% if member.photo %}     
-  {% assign links = member.photo | split: ', '%}
-  {% for img in links %}
-    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photo/{{img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
-      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photo/{{img}}">
-    </a>
-  {% endfor %}         
+    {% assign links = member.photo | split: ', '%}
+    {% for img in links %}
+        <a href="{{ site.url }}/assets/img/photo/{{member.photo}}" class="thickbox" width=300>
+          <img src="{{ site.url }}/assets/img/photo/{{member.photo}}" class="img-fluid">
+        </a>
+    {% endfor %}         
   {% endif %}       
-        
       </div>
     </div>
     <div class="col-md-8 col-xs-12 col-sm-12">
       <div class="card-text">
         <p><i><b>Дата рождения:</b></i> {{member.birthdate}}</p>
-        <p><i><b>Пол:</b></i> {{member.gender}}</p>
-        <p><i><b>Отец:</b></i> {{member.father}}</p>
-        <p><i><b>Мать:</b></i> {{member.mother}}</p>
+        <p><i><b>Отец:</b></i> <a href="{{ site.url }}/pages/{{member.f}}.html">{{member.f-name}}</a></p>
+        <p><i><b>Мать:</b></i> <a href="{{ site.url }}/pages/{{member.m}}.html">{{member.m-name}}</a></p>
         <p> {{member.about}}</p>
       </div>
     </div>
@@ -107,8 +101,8 @@
   
   {% assign links = member.photo | split: ', '%}
   {% for img in links %}
-    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photo/{{img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
-      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photo/{{img}}">
+    <a href="{{ site.url }}/assets/img/photo/{{member.photo}}" class="thickbox" width=300>
+      <img src="{{ site.url }}/assets/img/photo/{{member.photo}}" class="img-fluid">
     </a>
   {% endfor %} 
   
