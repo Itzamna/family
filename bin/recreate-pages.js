@@ -6,5 +6,5 @@ const lodash = require('lodash');
 lodash.keys(subjects).forEach((menu) => {
   fs.writeFileSync(
     `${__dirname}/../pages/${menu}.html`,
-    `---\nlayout: default-index\nmenu: ${menu}\ntitle: ${menu}\n---\n{% include card.html %}`);
+    `---\nlayout: default-index\nmenu: ${menu}\ntitle: ${menu}\n---\n111{% include card.html %}`);
 });
