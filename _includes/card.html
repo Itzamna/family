@@ -1,35 +1,33 @@
 {% assign member = site.data.family[page.menu] %}
 
-<h3 class="heading-xs">Образование <span class="pull-right text-uppercase">{{ member.name }}</span></h3>
-
 <div class="card">
-  <h1>{{pet.name}}</h1>
+  <h1>{{member.name}}</h1>
   <div class="row">
     <div class="col-md-4 col-xs-12 col-sm-12">
       <div class="card-photo">
-        <a href="{{ site.url }}/assets/photos/{{pet.photo}}" class="thickbox">
-          <img src="{{ site.url }}/assets/photos/{{pet.photo}}" class="img-fluid">
+        <a href="{{ site.url }}/assets/photo/{{member.photo}}" class="thickbox">
+          <img src="{{ site.url }}/assets/photo/{{member.photo}}" class="img-fluid">
         </a>
       </div>
     </div>
     <div class="col-md-8 col-xs-12 col-sm-12">
       <div class="card-text">
-        <p><i><b>Дата рождения:</b></i> {{pet.dob}}</p>
-        <p><i><b>Пол:</b></i> {{pet.sex}}</p>
-        <p><i><b>Отец:</b></i> {{pet.father}}</p>
-        <p><i><b>Мать:</b></i> {{pet.mother}}</p>
-        <p><i><b>Титулы:</b></i> <span style="text-transform: uppercase">{{pet.titles}}</span></p>
-        <p><i><b>Тесты:</b></i> {{pet.tests}}</p>
-        <p> {{pet.text}}</p>
+        <p><i><b>Дата рождения:</b></i> {{member.birthdate}}</p>
+        <p><i><b>Пол:</b></i> {{member.gender}}</p>
+        <p><i><b>Отец:</b></i> {{member.father}}</p>
+        <p><i><b>Мать:</b></i> {{member.mother}}</p>
+        <p> {{member.about}}</p>
       </div>
     </div>
-  </div>  
+  </div> 
+  
+  <h1>{{ site.data.family.[1.name]}} </h1>
 
- {% if pet.litters %}
+ {% if member.litters %}
   <div class="row">  
     <div class="col-md-12">
       <h3> Пометы:</h3>
-      <p> {% for litter in pet.litters %}
+      <p> {% for litter in member.litters %}
       <a href="{{ site.url }}/litters/{{litter.link}}">Помет "{{litter.name}}"</a>&nbsp;</p>
     </div>  
   </div>     
@@ -50,34 +48,34 @@
           <col width=33%>
           <tbody>
             <tr>
-              <td colspan="1" rowspan="4" class="blck-pedigree-table"><div class="pedigree-name">{{pet.f-name}}</div>{% if pet.f-titles %}<div class="pedigree-titles">{{pet.f-titles}}</div>{% endif %}</td>
-              <td colspan="1" rowspan="2"><div class="pedigree-name">{{pet.ff-name}}</div>{% if pet.ff-titles %}<div class="pedigree-titles">{{pet.ff-titles}}</div>{% endif %}</td>
-              <td><div class="pedigree-name">{{pet.fff-name}}</div>{% if pet.fff-titles %}<div class="pedigree-titles">{{pet.fff-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="4" class="blck-pedigree-table"><div class="pedigree-name">{{member.f-name}}</div>{% if member.f-titles %}<div class="pedigree-titles">{{member.f-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="2"><div class="pedigree-name">{{member.ff-name}}</div>{% if member.ff-titles %}<div class="pedigree-titles">{{member.ff-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.fff-name}}</div>{% if member.fff-titles %}<div class="pedigree-titles">{{member.fff-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td><div class="pedigree-name">{{pet.ffm-name}}</div>{% if pet.ffm-titles %}<div class="pedigree-titles">{{pet.ffm-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.ffm-name}}</div>{% if member.ffm-titles %}<div class="pedigree-titles">{{member.ffm-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td colspan="1" rowspan="2"><div class="pedigree-name">{{pet.fm-name}}</div>{% if pet.fm-titles %}<div class="pedigree-titles">{{pet.fm-titles}}</div>{% endif %}</td>
-              <td><div class="pedigree-name">{{pet.fmf-name}}</div>{% if pet.fmf-titles %}<div class="pedigree-titles">{{pet.fmf-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="2"><div class="pedigree-name">{{member.fm-name}}</div>{% if member.fm-titles %}<div class="pedigree-titles">{{member.fm-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.fmf-name}}</div>{% if member.fmf-titles %}<div class="pedigree-titles">{{member.fmf-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td><div class="pedigree-name">{{pet.fmm-name}}</div>{% if pet.fmm-titles %}<div class="pedigree-titles">{{pet.fmm-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.fmm-name}}</div>{% if member.fmm-titles %}<div class="pedigree-titles">{{member.fmm-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td colspan="1" rowspan="4"><div class="pedigree-name">{{pet.m-name}}</div>{% if pet.m-titles %}<div class="pedigree-titles">{{pet.m-titles}}</div>{% endif %}</td>
-              <td colspan="1" rowspan="2"><div class="pedigree-name">{{pet.mf-name}}</div>{% if pet.mf-titles %}<div class="pedigree-titles">{{pet.mf-titles}}</div>{% endif %}</td>
-              <td><div class="pedigree-name">{{pet.mff-name}}</div>{% if pet.mff-titles %}<div class="pedigree-titles">{{pet.mff-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="4"><div class="pedigree-name">{{member.m-name}}</div>{% if member.m-titles %}<div class="pedigree-titles">{{member.m-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="2"><div class="pedigree-name">{{member.mf-name}}</div>{% if member.mf-titles %}<div class="pedigree-titles">{{member.mf-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.mff-name}}</div>{% if member.mff-titles %}<div class="pedigree-titles">{{member.mff-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td><div class="pedigree-name">{{pet.mfm-name}}</div>{% if pet.mfm-titles %}<div class="pedigree-titles">{{pet.mfm-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.mfm-name}}</div>{% if member.mfm-titles %}<div class="pedigree-titles">{{member.mfm-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td colspan="1" rowspan="2"><div class="pedigree-name">{{pet.mm-name}}</div>{% if pet.mm-titles %}<div class="pedigree-titles">{{pet.mm-titles}}</div>{% endif %}</td>
-              <td><div class="pedigree-name">{{pet.mmf-name}}</div>{% if pet.mmf-titles %}<div class="pedigree-titles">{{pet.mmf-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="2"><div class="pedigree-name">{{member.mm-name}}</div>{% if member.mm-titles %}<div class="pedigree-titles">{{member.mm-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.mmf-name}}</div>{% if member.mmf-titles %}<div class="pedigree-titles">{{member.mmf-titles}}</div>{% endif %}</td>
             </tr>
             <tr>
-              <td><div class="pedigree-name">{{pet.mmm-name}}</div>{% if pet.mmm-titles %}<div class="pedigree-titles">{{pet.mmm-titles}}</div>{% endif %}</td>
+              <td><div class="pedigree-name">{{member.mmm-name}}</div>{% if member.mmm-titles %}<div class="pedigree-titles">{{member.mmm-titles}}</div>{% endif %}</td>
             </tr>
           </tbody>
         </table>
@@ -90,7 +88,7 @@
   <h3>Фотоальбом:</h3>
   
   <div class="pet-photo">
-    {% for photo in pet.photos %}
+    {% for photo in member.photos %}
     <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photos/{{photo.img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
       <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photos/{{photo.img}}">
     </a>
