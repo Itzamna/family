@@ -20,8 +20,7 @@
       </div>
     </div>
   </div> 
-  
-  <h1>{{ site.data.family.[1.name]}} </h1>
+
 
  {% if member.litters %}
   <div class="row">  
@@ -48,7 +47,9 @@
           <col width=33%>
           <tbody>
             <tr>
-              <td colspan="1" rowspan="4" class="blck-pedigree-table"><div class="pedigree-name">{{member.f-name}}</div>{% if member.f-titles %}<div class="pedigree-titles">{{member.f-titles}}</div>{% endif %}</td>
+              <td colspan="1" rowspan="4" class="blck-pedigree-table">
+                <div class="pedigree-name">{{member.f-name}}</div>
+                {% if member.f-titles %}<div class="pedigree-titles">{{member.f-titles}}</div>{% endif %}</td>
               <td colspan="1" rowspan="2"><div class="pedigree-name">{{member.ff-name}}</div>{% if member.ff-titles %}<div class="pedigree-titles">{{member.ff-titles}}</div>{% endif %}</td>
               <td><div class="pedigree-name">{{member.fff-name}}</div>{% if member.fff-titles %}<div class="pedigree-titles">{{member.fff-titles}}</div>{% endif %}</td>
             </tr>
