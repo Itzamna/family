@@ -31,16 +31,8 @@
       {% assign litters = site.data.family | group_by_exp:'f', "f['отец']"| sort:"name"  }} %}  
    {% for breed in litters %}
         {% assign types = breed.items | group_by_exp:'m', "" %}
-          <h3 class="catalog">{{breed.name}}<h3>           
-        {{types}}
+          <h3 class="catalog">{{types.name}}<h3>           
      {% endfor %}  
-      
-        {% for litter in litters %}
-           <h3 class="catalog">{{litter.name}}<h3>           
-
-     
-      {% endfor %}  <!-- breed-->    
-
 
   <div class="hr"></div>
 
