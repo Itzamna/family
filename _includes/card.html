@@ -2,44 +2,34 @@
 
 <div class="card">
   <h1>{{member.name}}</h1>
-  <div class="row">
-    <div class="col-md-4 col-xs-12 col-sm-12">
-  {% if member.photo %}     
-    {% assign links = member.photo | split: ', '%}
-    {% for img in links %}
-        <a href="{{ site.url }}/assets/img/photo/{{member.photo}}" class="thickbox" width=300>
-          <img src="{{ site.url }}/assets/img/photo/{{member.photo}}" class="img-fluid">
-        </a>
-    {% endfor %}         
-  {% endif %}       
-      </div>
+  <div class="row">    
 
     <div class="col-md-8 col-xs-12 col-sm-12">
       <div class="card-text">
-        <p><i><b>Дата рождения:</b></i> {{member.birthdate}}</p>
+        {% if member.birthdate %}<p><i><b>Дата рождения:</b></i> {{member.birthdate}}</p>{% endif %}
         <p><i><b>Отец:</b></i> <a href="{{ site.url }}/pages/{{member.f}}.html">{{member.f-name}}</a></p>
         <p><i><b>Мать:</b></i> <a href="{{ site.url }}/pages/{{member.m}}.html">{{member.m-name}}</a></p>
         <p> {{member.about}}</p>
       </div>
     </div>
+    <div class="col-md-4 col-xs-12 col-sm-12">
+    {% assign links = member.photo | split: "," |first %}
+    {% for img in links %}
+        <a href="{{ site.url }}/assets/img/photo/{{img}}" >
+          <img src="{{ site.url }}/assets/img/photo/{{img}}" width="300px">
+        </a>
+    {% endfor %}  
+  </div>
   </div> 
 
-<h3>113</h3>
-
-
-
-      {% assign litters = site.data.family[page.menu] | group_by_exp:'f', "f['отец']"| sort:"name"  }} %}  
-   {% for breed in litters %}
-        {% assign types = breed.items | group_by_exp:'m', "m['мать']"| sort:"name" %}
-          <h3 class="catalog">{{types.name}}<h3>    
-            {{types}}
-     {% endfor %}  
-
   <div class="hr"></div>
+
+
 
   <div class="row">  
     <div class="col-md-12">
       <h3> Родословная:</h3>
+      {% if member.f or member.m %}
       <div class="table-responsive">                  
         <table class="table-pedigree">
           <col width=33%>
@@ -106,30 +96,50 @@
           </tbody>
         </table>
       </div>
+       {% else %} 
+      <h5>Данных о родителях нет</h5>
+      {% endif %}
     </div>  
-  </div>     
+  </div> 
 
-  
+  <h2>Братья и сестры</h2>
 
-  <h3>Фотоальбом:</h3>
-  
-  <div class="pet-photo">
-    {% for ph in member.photo %}
-    <a class="js-fancybox" href="javascript:;"  data-src="{{ site.url }}/assets/photos/{{ph.img}}" data-animate-in="zoomIn" data-animate-out="zoomOut" data-speed="1000" data-overlay-bg="rgba(0, 0, 0, 1)">
-      <img class="img-fluid gallery-img" src="{{ site.url }}/assets/photos/{{ph.img}}">
-    </a>
+ {% assign families = site.data.family %}
+  <ul>
+  {% for ids in families %}
+    {% if (ids.f == member.f and ids.f!=nil and member.f!=nil) or (ids.m == member.m  and ids.m !=nil and member.m!=nil) %}
+      {% if ids.id != member.id %}
+    
+        <li><a href="{{ site.url }}/pages/{{ids.id}}.html">{{ids.name}}</a></li>
+      {% endif %}
+    {% endif %}
   {% endfor %}
-    </div>
-  
-  {% assign links = member.photo | split: ', '%}
-  {% for img in links %}
-    <a href="{{ site.url }}/assets/img/photo/{{member.photo}}" class="thickbox" width=300>
-      <img src="{{ site.url }}/assets/img/photo/{{member.photo}}" class="img-fluid">
-    </a>
-  {% endfor %} 
-  
-</div>
+  </ul>  
 
+  <h2>Дети</h2>
+
+  <ul>
+  {% for ids in families %}
+    {% if ids.f == member.id or ids.m == member.id %}
+      <li><a href="{{ site.url }}/pages/{{ids.id}}.html">{{ids.name}}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>  
+
+
+  
+
+{% if member.photo %}  
+  <h3>Фотоальбом:</h3>
+  {% assign links = member.photo | split: "," %}
+  <div class="photo">
+    {% for img in links %}
+        <a href="{{ site.url }}/assets/img/photo/{{img}}" class="thickbox">
+          <img src="{{ site.url }}/assets/img/photo/{{img}}" class="img-fluid">
+        </a>
+    {% endfor %}     
+  </div>
+{% endif %}     
 
 
 
