@@ -102,6 +102,20 @@
     </div>  
   </div> 
  
+{% if (member.spouse_all and member.spouse_all!= "#N/A" and member.spouse_all != "FALSE")  %}  
+  {% assign spa = member.spouse_all | split: ","  %}
+    {% assign counta = spa  | size  %}
+  
+  <h2>Супруги ({{counta}})</h2>
+  <ul>
+  {% for sp1 in spa %}
+        {% if  sp1 != nil %} 
+       {% assign people = site.data.family | where: "id", sp1 | map: "name" %}      
+        <li><a href="{{ site.url }}/pages/{{sp1}}.html">{{people}}</a></li>
+        {% endif %} 
+  {% endfor %}
+  </ul>  
+{% endif %} 
   
 {% if member.children and member.children != "#N/A" and member.children != "FALSE"  %}  
   {% assign childs = member.children | split: ","  %}
