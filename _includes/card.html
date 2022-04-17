@@ -101,37 +101,90 @@
       {% endif %}
     </div>  
   </div> 
-
-  <h2>Братья и сестры</h2>
-
- {% assign families = site.data.family %}
+ 
+  
+{% if member.children and member.children != "#N/A" %}  
+  {% assign childs = member.children | split: ","  %}
+    {% assign count = childs  | size  %}
+  
+  <h2>Дети ({{count}})</h2>
   <ul>
-  {% for ids in families %}
-    {% if (ids.f == member.f and ids.f!=nil and member.f!=nil) or (ids.m == member.m  and ids.m !=nil and member.m!=nil) %}
-      {% if ids.id != member.id %}
-    
-        <li><a href="{{ site.url }}/pages/{{ids.id}}.html">{{ids.name}}</a></li>
-      {% endif %}
-    {% endif %}
+  {% for child in childs %}
+       {% assign people = site.data.family | where: "id", child | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{child}}.html">{{people}}</a></li>
   {% endfor %}
   </ul>  
-
-  <h2>Дети</h2>
-
+{% endif %} 
+ 
+{% if member.sibs % and member.sibs != "#N/A" %}    
+  {% assign sibs = member.sibs | split: ","  %}
+    {% assign count = sibs  | size  %}
+  <h2>Родные братья и сестры ({{count}})</h2>
   <ul>
-  {% for ids in families %}
-    {% if ids.f == member.id or ids.m == member.id %}
-      <li><a href="{{ site.url }}/pages/{{ids.id}}.html">{{ids.name}}</a></li>
-    {% endif %}
+  {% for sib in sibs %}
+       {% assign people = site.data.family | where: "id", sib | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{sib}}.html">{{people}}</a></li>
   {% endfor %}
   </ul>  
-
-
+{% endif %} 
+  
+{% if member.stepsibs and member.stepsibs != "#N/A" %}     
+  {% assign stepsibs = member.stepsibs | split: ","  %}
+    {% assign count = stepsibs  | size  %}
+   <h2>Сводные братья и сестры ({{count}})</h2>
+  <ul>
+  {% for stepsib in stepsibs %}
+       {% assign people = site.data.family | where: "id", stepsib | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{stepsib}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>   
+{% endif %}   
+  
+{% if member.twins and member.twins != "#N/A" %}
+  {% assign twins = member.twins | split: ","  %}
+    {% assign count = twins  | size  %}
+   <h2>Двоюродные братья и сестры ({{count}})</h2>
+  <ul>
+  {% for twin in twins %}
+       {% assign people = site.data.family | where: "id", twin | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{twin}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>   
+{% endif %} 
+  
+{% if member.nephews and member.nephews != "#N/A" %}
+  {% assign nephews = member.nephews | split: ","  %}
+    {% assign count = nephews  | size  %}
+   <h2>Племянники ({{count}})</h2>
+  <ul>
+  {% for nephew in nephews %}
+       {% assign people = site.data.family | where: "id", nephew | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{nephew}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>   
+{% endif %}
+  
+{% if member.uncles and member.uncles != "#N/A" %}
+    {% assign uncles = member.uncles | split: ","  %}
+    {% assign count = uncles | size  %}
+   <h2>Дяди и тети ({{count}})</h2>
+  
+  <ul>
+  {% for uncle in uncles %}
+       {% assign people = site.data.family | where: "id", uncle | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{uncle}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>   
+{% endif %}
   
 
+  
+  
+  
+  
+{% assign links = member.photo | split: "," %}
 {% if member.photo %}  
   <h3>Фотоальбом:</h3>
-  {% assign links = member.photo | split: "," %}
   <div class="photo">
     {% for img in links %}
         <a href="{{ site.url }}/assets/img/photo/{{img}}" class="thickbox">
