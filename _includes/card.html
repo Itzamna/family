@@ -103,7 +103,7 @@
   </div> 
  
   
-{% if member.children and member.children != "#N/A" %}  
+{% if member.children and member.children != "#N/A" and member.children != "FALSE"  %}  
   {% assign childs = member.children | split: ","  %}
     {% assign count = childs  | size  %}
   
@@ -116,7 +116,7 @@
   </ul>  
 {% endif %} 
  
-{% if member.sibs % and member.sibs != "#N/A" %}    
+{% if member.sibs % and member.sibs != "#N/A" and member.sibs != "FALSE" %}    
   {% assign sibs = member.sibs | split: ","  %}
     {% assign count = sibs  | size  %}
   <h2>Родные братья и сестры ({{count}})</h2>
@@ -128,7 +128,7 @@
   </ul>  
 {% endif %} 
   
-{% if member.stepsibs and member.stepsibs != "#N/A" %}     
+{% if member.stepsibs and member.stepsibs != "#N/A"  and member.stepsibs != "FALSE" %}    
   {% assign stepsibs = member.stepsibs | split: ","  %}
     {% assign count = stepsibs  | size  %}
    <h2>Сводные братья и сестры ({{count}})</h2>
@@ -140,7 +140,7 @@
   </ul>   
 {% endif %}   
   
-{% if member.twins and member.twins != "#N/A" %}
+{% if member.twins and member.twins != "#N/A"  and member.twins != "FALSE" %}  
   {% assign twins = member.twins | split: ","  %}
     {% assign count = twins  | size  %}
    <h2>Двоюродные братья и сестры ({{count}})</h2>
@@ -152,7 +152,7 @@
   </ul>   
 {% endif %} 
   
-{% if member.nephews and member.nephews != "#N/A" %}
+{% if member.nephews and member.nephews != "#N/A"  and member.nephews != "FALSE" %}  
   {% assign nephews = member.nephews | split: ","  %}
     {% assign count = nephews  | size  %}
    <h2>Племянники ({{count}})</h2>
@@ -164,7 +164,7 @@
   </ul>   
 {% endif %}
   
-{% if member.uncles and member.uncles != "#N/A" %}
+{% if member.uncles and member.uncles != "#N/A"  and member.uncles != "FALSE" %}  
     {% assign uncles = member.uncles | split: ","  %}
     {% assign count = uncles | size  %}
    <h2>Дяди и тети ({{count}})</h2>
