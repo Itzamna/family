@@ -131,11 +131,14 @@
   </ul>  
 {% endif %} 
   
+
 {% if member.grandchildren and member.grandchildren != "#N/A" and member.grandchildren != "FALSE"  %}  
-  {% assign grhilds = member.grandchildren | split: ","  %}
+
+  {% assign grchilds = member.grandchildren | split: ","  %}
     {% assign count = grchilds  | size  %}
   
   <h2>Внуки ({{count}})</h2>
+     
   <ul>
   {% for grchild in grchilds %}
        {% assign people = site.data.family | where: "id", grchild | map: "name" %}
@@ -145,7 +148,7 @@
 {% endif %} 
   
 {% if member.grandgrandchildren and member.grandgrandchildren != "#N/A" and member.grandgrandchildren != "FALSE"  %}  
-  {% assign grgrhilds = member.grandgrandchildren | split: ","  %}
+  {% assign grgrchilds = member.grandgrandchildren | split: ","  %}
     {% assign count = grgrchilds  | size  %}
   
   <h2>Правнуки ({{count}})</h2>
