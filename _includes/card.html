@@ -1,7 +1,7 @@
 {% assign member = site.data.family[page.menu] %}
 
 <div class="card">
-  <h1>{{member.name}}</h1>
+  <h1>{{member.name}} {% if member.surname2 %}({{member.surname2}}){% endif %}</h1>
   <div class="row">    
 
     <div class="col-md-8 col-xs-12 col-sm-12">
@@ -102,7 +102,7 @@
     </div>  
   </div> 
  
-{% if (member.spouse_all and member.spouse_all!= "#N/A" and member.spouse_all != "FALSE")  %}  
+{% if (member.spouse_all and member.spouse_all!= "#N/A" and member.spouse_all != "FALSE" and member.spouse_all != "0" )  %}  
   {% assign spa = member.spouse_all | split: ","  %}
     {% assign counta = spa  | size  %}
   
@@ -203,7 +203,7 @@
   <div class="photo">
     {% for img in links %}
         <a href="{{ site.url }}/assets/img/photo/{{img}}" class="thickbox">
-          <img src="{{ site.url }}/assets/img/photo/{{img}}" class="img-fluid">
+          <img src="{{ site.url }}/assets/img/photo/{{img}}" class="img-fluid" width="350px">
         </a>
     {% endfor %}     
   </div>
