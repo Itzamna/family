@@ -142,12 +142,13 @@
   </ul>  
 {% endif %} 
   
+  
 {% if member.stepsibs and member.stepsibs != "#N/A"  and member.stepsibs != "FALSE" %}    
-  {% assign stepsibs = member.stepsibs | split: ","  %}
-    {% assign count = stepsibs  | size  %}
+  {% assign ssibs = member.stepsibs | split: ","  %}
+    {% assign count = ssibs  | size  %}
    <h2>Сводные братья и сестры ({{count}})</h2>
   <ul>
-  {% for stepsib in stepsibs %}
+  {% for stepsib in ssibs %}
        {% assign people = site.data.family | where: "id", stepsib | map: "name" %}
         <li><a href="{{ site.url }}/pages/{{stepsib}}.html">{{people}}</a></li>
   {% endfor %}
