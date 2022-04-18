@@ -1,1 +1,5 @@
-<a href="{{ site.url }}/pages/{{ include.id }}.html">{{ include.id }}</a>
+
+{% assign people = site.data.family | where: "id", include.id | map: "name" %}      
+<a href="{{ site.url }}/pages/{{ include.id }}.html">rrgtgrgrtg{{ people }}</a>
+
+                  <!--{% include people.html id="{{member.f}}" %}-->
