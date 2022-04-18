@@ -38,61 +38,75 @@
           <tbody>
             <tr>
               <td colspan="1" rowspan="4" class="blck-pedigree-table">
-                <div class="pedigree-name">
-                  <a href="{{ site.url }}/pages/{{member.f}}.html">{{member.f-name}}</a></div>
-
-                {% if member.f-titles %}<div class="pedigree-titles">{{member.f-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.f }}{% endcapture %}
+                  {% include people.html id=fid %}
+                </td>
               <td colspan="1" rowspan="2">
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.ff}}.html">{{member.ff-name}}</a></div>
-                {% if member.ff-titles %}<div class="pedigree-titles">{{member.ff-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.ff }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
               <td>
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.fff}}.html">{{member.fff-name}}</a></div>
-                {% if member.fff-titles %}<div class="pedigree-titles">{{member.fff-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.fff }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
               <td>
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.ffm}}.html">{{member.ffm-name}}</a></div>
-                {% if member.ffm-titles %}<div class="pedigree-titles">{{member.ffm-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.ffm }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
               <td colspan="1" rowspan="2">
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.fm}}.html">{{member.fm-name}}</a></div>
-                {% if member.fm-titles %}<div class="pedigree-titles">{{member.fm-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.fm }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
               <td>
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.fmf}}.html">{{member.fmf-name}}</a></div>
-                {% if member.fmf-titles %}<div class="pedigree-titles">{{member.fmf-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.fmf }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
               <td>
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.fmm}}.html">{{member.fmm-name}}</a></div>
-                {% if member.fmm-titles %}<div class="pedigree-titles">{{member.fmm-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.fmm }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
               <td colspan="1" rowspan="4">
-                <div class="pedigree-name"> <a href="{{ site.url }}/pages/{{member.m}}.html">{{member.m-name}}</a></div>
-                {% if member.m-titles %}<div class="pedigree-titles">{{member.m-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.m }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
               <td colspan="1" rowspan="2">
-                <div class="pedigree-name"><a href="{{ site.url }}/pages/{{member.mf}}.html">{{member.mf-name}}</a></div>
-                {% if member.mf-titles %}<div class="pedigree-titles">{{member.mf-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.mf }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
               <td>
-                <div class="pedigree-name"><a href="{{ site.url }}/pages/{{member.mff}}.html">{{member.mff-name}}</a></div>
-                {% if member.mff-titles %}<div class="pedigree-titles">{{member.mff-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.mff }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
-              <td><div class="pedigree-name"><a href="{{ site.url }}/pages/{{member.mfm}}.html">{{member.mfm-name}}</a></div>
-                {% if member.mfm-titles %}<div class="pedigree-titles">{{member.mfm-titles}}</div>{% endif %}</td>
+              <td>
+                  {% capture fid %}{{ member.mfm }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
               <td colspan="1" rowspan="2">
-                <div class="pedigree-name"><a href="{{ site.url }}/pages/{{member.mm}}.html">{{member.mm-name}}</a></div>
-                {% if member.mm-titles %}<div class="pedigree-titles">{{member.mm-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.mm }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
               <td>
-                <div class="pedigree-name"><a href="{{ site.url }}/pages/{{member.mmf}}.html">{{member.mmf-name}}</a></div>
-                {% if member.mmf-titles %}<div class="pedigree-titles">{{member.mmf-titles}}</div>{% endif %}</td>
+                  {% capture fid %}{{ member.mmf }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
             <tr>
-              <td><div class="pedigree-name"><a href="{{ site.url }}/pages/{{member.mmm}}.html">{{member.mmm-name}}</a></div>
-                {% if member.mmm-titles %}<div class="pedigree-titles">{{member.mmm-titles}}</div>{% endif %}</td>
+              <td>
+                  {% capture fid %}{{ member.mmm }}{% endcapture %}
+                  {% include people.html id=fid %}
+              </td>
             </tr>
           </tbody>
         </table>

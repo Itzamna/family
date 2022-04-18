@@ -1,5 +1,6 @@
 
-{% assign people = site.data.family | where: "id", include.id | map: "name" %}      
-<a href="{{ site.url }}/pages/{{ include.id }}.html">rrgtgrgrtg{{ people }}</a>
+{% assign pname = site.data.family | where: "id", include.id | map: "name" %}      
+<div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ pname }}</a></div>
 
-                  <!--{% include people.html id="{{member.f}}" %}-->
+{% assign birthdate = site.data.family | where: "id", include.id | map: "birthdate" %}      
+{% assign deathdate = site.data.family | where: "id", include.id | map: "deathdate" %}      
