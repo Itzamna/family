@@ -130,6 +130,32 @@
   {% endfor %}
   </ul>  
 {% endif %} 
+  
+{% if member.grandchildren and member.grandchildren != "#N/A" and member.grandchildren != "FALSE"  %}  
+  {% assign grhilds = member.grandchildren | split: ","  %}
+    {% assign count = grchilds  | size  %}
+  
+  <h2>Внуки ({{count}})</h2>
+  <ul>
+  {% for grchild in grchilds %}
+       {% assign people = site.data.family | where: "id", grchild | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{grchild}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>  
+{% endif %} 
+  
+{% if member.grandgrandchildren and member.grandgrandchildren != "#N/A" and member.grandgrandchildren != "FALSE"  %}  
+  {% assign grgrhilds = member.grandgrandchildren | split: ","  %}
+    {% assign count = grgrchilds  | size  %}
+  
+  <h2>Правнуки ({{count}})</h2>
+  <ul>
+  {% for grgrchild in grgrchilds %}
+       {% assign people = site.data.family | where: "id", grgrchild | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{grgrchild}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>  
+{% endif %}  
  
 {% if member.sibs % and member.sibs != "#N/A" and member.sibs != "FALSE" %}    
   {% assign sibs = member.sibs | split: ","  %}
@@ -179,6 +205,7 @@
   {% endfor %}
   </ul>   
 {% endif %}
+
   
 {% if member.uncles and member.uncles != "#N/A"  and member.uncles != "FALSE" %}  
     {% assign uncles = member.uncles | split: ","  %}
