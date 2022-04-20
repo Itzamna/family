@@ -117,7 +117,7 @@
     </div>  
   </div> 
  
-{% if (member.spouse_all and member.spouse_all!= "#N/A" and member.spouse_all != "FALSE" and member.spouse_all != "0" )  %}  
+{% if (member.spouse_all and member.spouse_all != "#N/A" and member.spouse_all != "FALSE" and member.spouse_all != "0" )  %}  
   {% assign spa = member.spouse_all | split: ","  %}
     {% assign counta = spa  | size  %}
   
@@ -242,7 +242,7 @@
   
   
   
-{% assign links = member.photo | split: "," %}
+{% assign links = member.photo | split: "," | remove_first %}
 {% if member.photo %}  
   <h3>Фотоальбом:</h3>
   <div class="photo">

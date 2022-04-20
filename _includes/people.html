@@ -1,6 +1,18 @@
 
-{% assign pname = site.data.family | where: "id", include.id | map: "name" %}      
-<div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ pname }}</a></div>
+{% assign data = site.data.family | where: "id", include.id  %}  
 
-{% assign birthdate = site.data.family | where: "id", include.id | map: "birthdate" %}      
-{% assign deathdate = site.data.family | where: "id", include.id | map: "deathdate" %}      
+{% assign name = data | map: "name" %}      
+{% assign bdate = data | map: "birthdate" %}      
+{% assign ddate = data | map: "deathdate"  %}      
+{% assign photo = data | map: "photo" %}      
+
+
+<div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ name }}</a></div>
+<!--
+
+{% if bdate =="" %}1 {{bdate}}<br>{% else %}2<br>{% endif %}
+{% if ddate="" %}3 {{ddate}}<br>{% else %} 4<br>{% endif %}
+
+{{photo}}
+
+ -->
