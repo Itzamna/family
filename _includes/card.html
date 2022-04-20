@@ -6,7 +6,16 @@
 
     <div class="col-md-8 col-xs-12 col-sm-12">
       <div class="card-text">
-        {% if member.birthdate %}<p><i><b>Дата рождения:</b></i> {{member.birthdate}}</p>{% endif %}
+        {% if member.deathdate and member.birthdate %}
+        <p><b>Годы жизни: </b>{{member.birthdate}} - {{member.deathdate}}</p>
+        {% elsif member.birthdate %}
+        <p><b>Дата рождения:</b> {{member.birthdate}}</p>
+        {% elsif member.deathdate %}
+        <p><b>&#8224;</b> {{member.deathdate}}</p>
+
+        {% endif %}
+
+
         <p> {{member.about}}</p>
       </div>
     </div>
@@ -27,7 +36,7 @@
   <div class="row">  
     <div class="col-md-12">
       <h3> Родословная:</h3>
-      {% if member.f or member.m %}
+      {% if (member.f and member.f !="0") or (member.m and member.m !="0") %}
       <div class="table-responsive">                  
         <table class="table-pedigree">
           <col width=33%>
@@ -237,7 +246,7 @@
   
   
 {% assign links = member.photo | split: "," | shift %}
-
+   
 {% if member.photo %}  
   <h3>Фотоальбом:</h3>
   <div class="photo">
