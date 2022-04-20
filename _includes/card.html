@@ -237,12 +237,9 @@
   </ul>   
 {% endif %}
   
+  
+{% assign links = member.photo | split: "," | shift %}
 
-  
-  
-  
-  
-{% assign links = member.photo | split: "," | remove_first %}
 {% if member.photo %}  
   <h3>Фотоальбом:</h3>
   <div class="photo">
