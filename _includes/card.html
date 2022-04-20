@@ -7,8 +7,6 @@
     <div class="col-md-8 col-xs-12 col-sm-12">
       <div class="card-text">
         {% if member.birthdate %}<p><i><b>Дата рождения:</b></i> {{member.birthdate}}</p>{% endif %}
-        <p><i><b>Отец:</b></i> <a href="{{ site.url }}/pages/{{member.f}}.html">{{member.f-name}}</a></p>
-        <p><i><b>Мать:</b></i> <a href="{{ site.url }}/pages/{{member.m}}.html">{{member.m-name}}</a></p>
         <p> {{member.about}}</p>
       </div>
     </div>
