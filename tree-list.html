@@ -14,8 +14,15 @@ description: родословная и немного истории одной 
   </div>
   <div class="row">
     <div class="col-md-12">
-      <p>Сайт для будущих поколений нашей семьи. Чтобы знали свою историю.</p>
-      
+      <p>
+      {% assign lists= site.data.family | where: "viewlist", "1" | sort: "name"%}
+      <ul>
+      {% for list in lists %}
+        <li><a href="{{ site.url }}/pages/{{ list.id }}.html">{{ list.name }}</a></li>
+      {% endfor %}
+      </ul>        
+      </p>
     </div> 
   </div>
 </div>
+

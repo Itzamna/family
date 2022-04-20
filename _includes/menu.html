@@ -6,7 +6,7 @@
           <a href="javascript:void(0);" class="dropdown-toggle"><i class="fa {{ link.ico }} icon-sm"></i>{{ link.alt }}</a>
           <ul class="dropdown-menu">
             {% for sublink in link.submenu %}
-            <li><a href="{{ site.url }}/{{ sublink.url }}.html"><i class="fa fa-check color-green"></i> {{ sublink.alt }}</a></li>
+              <li><a href="{{ site.url }}/{{ sublink.url }}.html"><i class="fa fa-check color-green"></i> {{ sublink.alt }}</a></li>
             {% endfor %}
           </ul>
         </li>       

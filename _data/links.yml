@@ -3,13 +3,9 @@
   ico: fa-home
   
 - url: alesenko
-  alt: Алесенко
+  alt: Истории семьи Алесенко
   ico:  fa-angle-right
   
-- url: belyaniny
-  alt: Белянины
-  ico: fa-angle-right
-
-- url: pankiny
-  alt: Панькины
+- url: tree-list
+  alt: Генеалогическое древо
   ico: fa-angle-right
