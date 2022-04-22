@@ -6,6 +6,25 @@
 {% assign ddate = data | map: "deathdate"  %}      
 {% assign photo = data | map: "photo" %}      
 
-
-
 <div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ name }}</a></div>
+
+ 
+
+{% if bdate[0] == nil and ddate[0] == nil %}  
+{%elsif bdate[0] != nil and ddate[0] == nil%} 
+<i><small>р. {{bdate[0]}}</small></i>
+
+{%elsif ddate[0] != nil and bdate[0] == nil%} 
+<i><small>&#8224; у. {{ddate[0]}}</small></i>
+
+{%elsif bdate[0] != nil and ddate[0] != nil %} 
+<i><small>&#8224; {{bdate[0]}} &mdash; {{ddate[0]}}</small></i>
+
+{% endif %}  
+
+{% assign links = photo[0] | split: "," |first %}
+{% for img in links %}
+<div class="pedigree-name"> <a href="{{ site.url }}/assets/img/photo/{{img}}" >
+      <img src="{{ site.url }}/assets/img/photo/{{img}}" width="90px">
+  </a></div>
+{% endfor %} 
