@@ -257,10 +257,12 @@
 {% endif %}
   
   
-{% assign links = member.photo | split: "," | shift %}
-   
+{% assign links = member.photo | split: "," %}
+  
+  
 {% if member.photo %}  
   <h3>Фотоальбом:</h3>
+{% if member.comment %}<p>{{member.comment}}</p>{% endif %}   
   <div class="photo">
     {% for img in links %}
         <a href="{{ site.url }}/assets/img/photo/{{img}}" class="thickbox">
