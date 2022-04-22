@@ -206,17 +206,6 @@
   </ul>   
 {% endif %}   
   
-{% if member.twins and member.twins != "#N/A"  and member.twins != "FALSE" %}  
-  {% assign twins = member.twins | split: ","  %}
-    {% assign count = twins  | size  %}
-   <h2>Двоюродные братья и сестры ({{count}})</h2>
-  <ul>
-  {% for twin in twins %}
-       {% assign people = site.data.family | where: "id", twin | map: "name" %}
-        <li><a href="{{ site.url }}/pages/{{twin}}.html">{{people}}</a></li>
-  {% endfor %}
-  </ul>   
-{% endif %} 
   
 {% if member.nephews and member.nephews != "#N/A"  and member.nephews != "FALSE" %}  
   {% assign nephews = member.nephews | split: ","  %}
@@ -230,6 +219,17 @@
   </ul>   
 {% endif %}
 
+{% if member.nephews-2 and member.nephews-2 != "#N/A"  and member.nephews-2 != "FALSE" %}  
+  {% assign nephews-2 = member.nephews-2 | split: ","  %}
+    {% assign count = nephews-2  | size  %}
+   <h2>Двоюродные племянники ({{count}})</h2>
+  <ul>
+  {% for n2 in nephews-2 %}
+       {% assign people = site.data.family | where: "id", n2 | map: "name" %}
+        <li><a href="{{ site.url }}/pages/{{n2}}.html">{{people}}</a></li>
+  {% endfor %}
+  </ul>   
+{% endif %} 
   
 {% if member.uncles and member.uncles != "#N/A"  and member.uncles != "FALSE" %}  
     {% assign uncles = member.uncles | split: ","  %}
