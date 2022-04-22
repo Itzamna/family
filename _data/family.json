@@ -237,7 +237,7 @@
     "nephews": "77,78,79,81,82",
     "grandchildren": "1,2",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "77,78,79,81,82"
+    "nephews-2": "#N/A"
   },
   "6": {
     "id": "6",
@@ -277,7 +277,7 @@
     "nephews": "68,69,70",
     "grandchildren": "1,2",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "68,69,70,117,118,235,243,245"
+    "nephews-2": "117,118,235,243,245"
   },
   "7": {
     "id": "7",
@@ -797,7 +797,7 @@
     "nephews": "84,85,86,87,88,90,91,95,96,98",
     "grandchildren": "1,2",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "84,85,86,87,88,90,91,95,96,98"
+    "nephews-2": "#N/A"
   },
   "20": {
     "id": "20",
@@ -877,7 +877,7 @@
     "nephews": "161,163,166,168,172",
     "grandchildren": "4,75,84,85,86,87,88,90,91,95,96,98",
     "grandgrandchildren": "1,2,93,227,228,229",
-    "nephews-2": "161,163,166,168,172,173,175,176,177,178,179,180"
+    "nephews-2": "173,175,176,177,178,179,180"
   },
   "22": {
     "id": "22",
@@ -957,7 +957,7 @@
     "nephews": "1,2",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,72,73"
+    "nephews-2": "72,73"
   },
   "24": {
     "id": "24",
@@ -997,7 +997,7 @@
     "nephews": "3,23,81,82",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "3,23,81,82"
+    "nephews-2": "#N/A"
   },
   "25": {
     "id": "25",
@@ -1037,7 +1037,7 @@
     "nephews": "3,23,77,78,79",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "3,23,77,78,79"
+    "nephews-2": "#N/A"
   },
   "26": {
     "id": "26",
@@ -1077,7 +1077,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "27": {
     "id": "27",
@@ -1117,7 +1117,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "28": {
     "id": "28",
@@ -1157,7 +1157,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "29": {
     "id": "29",
@@ -1197,7 +1197,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "30": {
     "id": "30",
@@ -1237,7 +1237,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "31": {
     "id": "31",
@@ -1277,7 +1277,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "32": {
     "id": "32",
@@ -1317,7 +1317,7 @@
     "nephews": "5,24,25",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "5,24,25"
+    "nephews-2": "#N/A"
   },
   "33": {
     "id": "33",
@@ -1677,7 +1677,7 @@
     "nephews": "103,104,222,233,234,237,240,241",
     "grandchildren": "3,23,68,69,70",
     "grandgrandchildren": "1,2,72,73",
-    "nephews-2": "103,104,125,126,222,233,234,237,240,241"
+    "nephews-2": "125,126"
   },
   "42": {
     "id": "42",
@@ -1837,7 +1837,7 @@
     "nephews": "6,66,222,233,234,237,240,241",
     "grandchildren": "117,118",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,125,126,222,233,234,237,240,241"
+    "nephews-2": "125,126"
   },
   "46": {
     "id": "46",
@@ -1877,7 +1877,7 @@
     "nephews": "6,66,103,104,222,233,234,240,241",
     "grandchildren": "243",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,222,233,234,240,241"
+    "nephews-2": "125,126"
   },
   "47": {
     "id": "47",
@@ -1917,7 +1917,7 @@
     "nephews": "6,66,103,104,222,237,240,241",
     "grandchildren": "235",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,222,237,240,241"
+    "nephews-2": "125,126"
   },
   "48": {
     "id": "48",
@@ -1957,7 +1957,7 @@
     "nephews": "6,66,103,104,222,233,234,237,240,241",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,222,233,234,237,240,241"
+    "nephews-2": "125,126"
   },
   "49": {
     "id": "49",
@@ -1997,7 +1997,7 @@
     "nephews": "6,66,103,104,233,234,237,240,241",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,233,234,237,240,241"
+    "nephews-2": "125,126"
   },
   "50": {
     "id": "50",
@@ -2037,7 +2037,7 @@
     "nephews": "6,66,103,104,222,233,234,237",
     "grandchildren": "245",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,222,233,234,237"
+    "nephews-2": "125,126"
   },
   "51": {
     "id": "51",
@@ -2197,7 +2197,7 @@
     "nephews": "41,45,46,47,48,49,50",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "41,45,46,47,48,49,50"
+    "nephews-2": "#N/A"
   },
   "55": {
     "id": "55",
@@ -2517,7 +2517,7 @@
     "nephews": "4,75,84,85,86,87,88,90,91,98",
     "grandchildren": "228,229",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "4,75,84,85,86,87,88,90,91,98"
+    "nephews-2": "#N/A"
   },
   "63": {
     "id": "63",
@@ -2557,7 +2557,7 @@
     "nephews": "4,75,90,91,95,96,98",
     "grandchildren": "227",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "4,75,90,91,95,96,98"
+    "nephews-2": "#N/A"
   },
   "64": {
     "id": "64",
@@ -2597,7 +2597,7 @@
     "nephews": "4,75,84,85,86,87,88,95,96,98",
     "grandchildren": "93",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "4,75,84,85,86,87,88,95,96,98"
+    "nephews-2": "#N/A"
   },
   "65": {
     "id": "65",
@@ -2637,7 +2637,7 @@
     "nephews": "4,75,84,85,86,87,88,90,91,95,96",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "4,75,84,85,86,87,88,90,91,95,96"
+    "nephews-2": "#N/A"
   },
   "66": {
     "id": "66",
@@ -2677,7 +2677,7 @@
     "nephews": "3,23",
     "grandchildren": "72,73",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "3,23,117,118,235,243,245"
+    "nephews-2": "117,118,235,243,245"
   },
   "67": {
     "id": "67",
@@ -2797,7 +2797,7 @@
     "nephews": "72,73",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,72,73"
+    "nephews-2": "1,2"
   },
   "70": {
     "id": "70",
@@ -2837,7 +2837,7 @@
     "nephews": "72,73",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,72,73"
+    "nephews-2": "1,2"
   },
   "71": {
     "id": "71",
@@ -3037,7 +3037,7 @@
     "nephews": "1,2",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "93,227,228,229"
   },
   "76": {
     "id": "76",
@@ -3397,7 +3397,7 @@
     "nephews": "227",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "1,2,93,228,229"
   },
   "85": {
     "id": "85",
@@ -3437,7 +3437,7 @@
     "nephews": "227",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "1,2,93,228,229"
   },
   "86": {
     "id": "86",
@@ -3477,7 +3477,7 @@
     "nephews": "227",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "1,2,93,228,229"
   },
   "87": {
     "id": "87",
@@ -3557,7 +3557,7 @@
     "nephews": "227",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "1,2,93,228,229"
   },
   "89": {
     "id": "89",
@@ -3677,7 +3677,7 @@
     "nephews": "93",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "1,2,227,228,229"
   },
   "92": {
     "id": "92",
@@ -3837,7 +3837,7 @@
     "nephews": "228,229",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "1,2,93,227,228,229"
+    "nephews-2": "1,2,93,227"
   },
   "96": {
     "id": "96",
@@ -4037,7 +4037,7 @@
     "nephews": "103,104,120,121,122",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "103,104,120,121,122"
+    "nephews-2": "#N/A"
   },
   "101": {
     "id": "101",
@@ -4077,7 +4077,7 @@
     "nephews": "119,120,121,122",
     "grandchildren": "117,118",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "119,120,121,122"
+    "nephews-2": "#N/A"
   },
   "102": {
     "id": "102",
@@ -4157,7 +4157,7 @@
     "nephews": "117,118",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "3,23,68,69,70,117,118,235,243,245"
+    "nephews-2": "3,23,68,69,70,235,243,245"
   },
   "104": {
     "id": "104",
@@ -4357,7 +4357,7 @@
     "nephews": "103,104,119,122",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "103,104,119,122"
+    "nephews-2": "#N/A"
   },
   "109": {
     "id": "109",
@@ -4397,7 +4397,7 @@
     "nephews": "103,104,119,120,121",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "103,104,119,120,121"
+    "nephews-2": "#N/A"
   },
   "110": {
     "id": "110",
@@ -4797,7 +4797,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "117,118"
+    "nephews-2": "#N/A"
   },
   "120": {
     "id": "120",
@@ -4837,7 +4837,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "117,118"
+    "nephews-2": "#N/A"
   },
   "121": {
     "id": "121",
@@ -4877,7 +4877,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "117,118"
+    "nephews-2": "#N/A"
   },
   "122": {
     "id": "122",
@@ -4917,7 +4917,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "117,118"
+    "nephews-2": "#N/A"
   },
   "123": {
     "id": "123",
@@ -4997,7 +4997,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,222,233,234,237,240,241"
+    "nephews-2": "6,66,103,104"
   },
   "125": {
     "id": "125",
@@ -5117,7 +5117,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,222,233,234,237,240,241"
+    "nephews-2": "6,66,103,104"
   },
   "128": {
     "id": "128",
@@ -5157,7 +5157,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,103,104,125,126,222,233,234,237,240,241"
+    "nephews-2": "6,66,103,104"
   },
   "129": {
     "id": "129",
@@ -5658,7 +5658,7 @@
     "res1": "",
     "spouse_all": "139",
     "work": "",
-    "photo": "6.jpg",
+    "photo": "9.jpg",
     "vov": "",
     "ff": "0",
     "fff": "0",
@@ -5698,7 +5698,7 @@
     "res1": "",
     "spouse_all": "134",
     "work": "",
-    "photo": "104.png",
+    "photo": "104.png,6.jpg",
     "vov": "",
     "ff": "0",
     "fff": "0",
@@ -5757,7 +5757,7 @@
     "nephews": "19,62,63,64,65",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65"
+    "nephews-2": "#N/A"
   },
   "144": {
     "id": "144",
@@ -6077,7 +6077,7 @@
     "nephews": "173",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65,161,163,166,168,173,178,179,180"
+    "nephews-2": "19,62,63,64,65,161,163,166,168,178,179,180"
   },
   "152": {
     "id": "152",
@@ -6117,7 +6117,7 @@
     "nephews": "175,176,177",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65,161,163,166,168,175,176,177,178,179,180"
+    "nephews-2": "19,62,63,64,65,161,163,166,168,178,179,180"
   },
   "153": {
     "id": "153",
@@ -6157,7 +6157,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65,161,163,166,168,173,175,176,177"
+    "nephews-2": "19,62,63,64,65"
   },
   "154": {
     "id": "154",
@@ -6397,7 +6397,7 @@
     "nephews": "19,62,63,64,65,166,168,172",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65,166,168,172,173,175,176,177,178,179,180"
+    "nephews-2": "173,175,176,177,178,179,180"
   },
   "160": {
     "id": "160",
@@ -6597,7 +6597,7 @@
     "nephews": "19,62,63,64,65,161,163,172",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65,161,163,172,173,175,176,177,178,179,180"
+    "nephews-2": "173,175,176,177,178,179,180"
   },
   "165": {
     "id": "165",
@@ -6837,7 +6837,7 @@
     "nephews": "19,62,63,64,65,161,163,166,168",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "19,62,63,64,65,161,163,166,168"
+    "nephews-2": "#N/A"
   },
   "171": {
     "id": "171",
@@ -8077,7 +8077,7 @@
     "nephews": "219",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,219"
+    "nephews-2": "6,66"
   },
   "202": {
     "id": "202",
@@ -8237,7 +8237,7 @@
     "nephews": "208,209,210,211,212",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "208,209,210,211,212"
+    "nephews-2": "#N/A"
   },
   "206": {
     "id": "206",
@@ -8277,7 +8277,7 @@
     "nephews": "6,66",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,207,208,209,210,211,212,213,214,215,216,217"
+    "nephews-2": "208,209,210,211,212,213"
   },
   "207": {
     "id": "207",
@@ -8317,7 +8317,7 @@
     "nephews": "6,66",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,206,208,209,210,211,212,213,214,215,216,217"
+    "nephews-2": "208,209,210,211,212,213"
   },
   "208": {
     "id": "208",
@@ -8357,7 +8357,7 @@
     "nephews": "205,206,207,209,210,211,212,214,215,216,217",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "205,206,207,209,210,211,212,214,215,216,217"
+    "nephews-2": "#N/A"
   },
   "209": {
     "id": "209",
@@ -8397,7 +8397,7 @@
     "nephews": "205,206,207,208,210,211,212,214,215,216,217",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "205,206,207,208,210,211,212,214,215,216,217"
+    "nephews-2": "#N/A"
   },
   "210": {
     "id": "210",
@@ -8437,7 +8437,7 @@
     "nephews": "205,206,207,208,209,211,212,214,215,216,217",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "205,206,207,208,209,211,212,214,215,216,217"
+    "nephews-2": "#N/A"
   },
   "211": {
     "id": "211",
@@ -8477,7 +8477,7 @@
     "nephews": "205,206,207,208,209,210,212,214,215,216,217",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "205,206,207,208,209,210,212,214,215,216,217"
+    "nephews-2": "#N/A"
   },
   "212": {
     "id": "212",
@@ -8517,7 +8517,7 @@
     "nephews": "205,206,207,208,209,210,211,214,215,216,217",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "205,206,207,208,209,210,211,214,215,216,217"
+    "nephews-2": "#N/A"
   },
   "213": {
     "id": "213",
@@ -8557,7 +8557,7 @@
     "nephews": "206,207,214,215,216,217",
     "grandchildren": "205,206,207,208,209,210,211,212,214,215,216,217",
     "grandgrandchildren": "205,206,207,208,209,210,211,212,214,215,216,217",
-    "nephews-2": "206,207,214,215,216,217"
+    "nephews-2": "#N/A"
   },
   "214": {
     "id": "214",
@@ -8597,7 +8597,7 @@
     "nephews": "6,66",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,206,207,208,209,210,211,212,213,215,216,217"
+    "nephews-2": "208,209,210,211,212,213"
   },
   "215": {
     "id": "215",
@@ -8637,7 +8637,7 @@
     "nephews": "6,66",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,206,207,208,209,210,211,212,213,214,216,217"
+    "nephews-2": "208,209,210,211,212,213"
   },
   "216": {
     "id": "216",
@@ -8677,7 +8677,7 @@
     "nephews": "6,66",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,206,207,208,209,210,211,212,213,214,215,217"
+    "nephews-2": "208,209,210,211,212,213"
   },
   "217": {
     "id": "217",
@@ -8717,7 +8717,7 @@
     "nephews": "6,66",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "6,66,206,207,208,209,210,211,212,213,214,215,216"
+    "nephews-2": "208,209,210,211,212,213"
   },
   "218": {
     "id": "218",
@@ -9357,7 +9357,7 @@
     "nephews": "235",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "3,23,68,69,70,117,118,235,243,245"
+    "nephews-2": "3,23,68,69,70,117,118,243,245"
   },
   "234": {
     "id": "234",
@@ -9677,7 +9677,7 @@
     "nephews": "245",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "3,23,68,69,70,117,118,235,243,245"
+    "nephews-2": "3,23,68,69,70,117,118,235,243"
   },
   "242": {
     "id": "242",
