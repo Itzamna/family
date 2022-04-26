@@ -1,0 +1,9 @@
+{% assign data = site.data.family | where: "id", include.id  %}  
+{% assign name = data | map: "name" %}      
+{% assign bdate = data | map: "birthdate" %}      
+{% assign ddate = data | map: "deathdate"  %}      
+{% assign photo = data | map: "photo" %}      
+{% assign gender = data | map: "gender" %}      
+
+"name": "{{ name }}",
+"class": "{% if gender[0] == 1}man{%else%}woman{% endif %}"
