@@ -1,4 +1,4 @@
-{% assign mdays = site.data.family| where: "birthdate" %} 
+{% assign mdays = site.data.family| where: "birthdate", "12.10.2010" %} 
 {% assign mnow = now | date: "%d.%m.%Y" %}
   {% for mday in mdays %}
         {% assign mdate = mday | map: "birthdate" %}     
