@@ -1,0 +1,6 @@
+{% assign mdays = site.data.family| where: "birthday" %} 
+
+  {% for mday in mdays %}
+      
+        {{ mday }}<br>
+  {% endfor %}
