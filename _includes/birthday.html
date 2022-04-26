@@ -1,4 +1,4 @@
-{% assign mdays = site.data.family| where_exp: "birthdate", "birthdate contains '.'" %} 
+{% assign mdays = site.data.family| where_exp: "birthdate", "birthdate contains '0'" %} 
   {% for mday in mdays %}
  
           {{mday}}<hr>
