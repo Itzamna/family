@@ -1,15 +1,1 @@
 1
-{% assign mdays = site.data.family| where: "birthdate" %} 
-{% assign mnow = now | date: "%d.%m.%Y" %}
-  {% for mday in mdays %}
-        {% assign mdate = mday | map: "birthdate" %}     
-     {% assign tmdate = mdate | date: "%d.%m.%Y" %}
-
-
-          {% if mnow == tmdate %}  
-          {{mday}}<hr>
-
-          {% endif %} 
-
-        {{ mday }}<br>
-  {% endfor %}
