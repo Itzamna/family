@@ -30,12 +30,12 @@ description: родословная и немного истории одной 
             {% capture fid %}{{ fffchild.name }}{% endcapture %}
             {% include people-json.html id=fid %},
           },
-        {% assign ffchildids = fffchild.items  %}
+        {% assign fffchildids = fffchild.items  %}
     "children": [{
-     {% for ffchildid in ffchildids %}
+     {% for fffchildid in fffchildids %}
             {
-            {% capture fid %}{{ ffchildid.id }}{% endcapture %}
-            {% include people-json.html id=fid %},
+              {% capture fid %}{{ fffchildid.id }}{% endcapture %}
+              {% include people-json.html id=fid %},
             },
     {% endfor %}  
       }]   
