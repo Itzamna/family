@@ -1,4 +1,4 @@
-{% assign mdays = site.data.family| where: "birthdate", "02.01.1966" %} 
+{% assign mdays = site.data.family| where: "birthdate", "birthdate > 0" %} 
   {% for mday in mdays %}
  
           {{mday}}<hr>
