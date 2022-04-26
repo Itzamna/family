@@ -1,14 +1,20 @@
-{% assign mdays = site.data.family| where_exp: "id", "id.birthdate contains'.'" %} 
+{% assign mdays = site.data.family| where_exp: "id", "id.birthdate contains '.'" %} 
 {% assign mnow = site.time | date: "%d.%m" %}
-{{ mnow }}
+{% assign ii = 0 %} 
+
+
   {% for mday in mdays %}
+        
         {% assign mdate = mday | map: "birthdate" %}     
         {% assign tmdate = mdate[0] | date: "%d.%m" %}
-
           {% if mnow == tmdate %}
-          {{mday}}<hr>
-
+            {% assign ii = ii | plus: 1 %} 
+            {% if ii == 1 %}
+            <h2>Сегодняшние именинники:</h2>
+            {% endif %} 
+            {% capture fid %}{{ mday.id }}{% endcapture %}
+            {% include people.html id=fid %}
+            <hr>
           {% endif %} 
-
-        <br>
   {% endfor %}
+
