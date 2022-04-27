@@ -8,6 +8,11 @@ mkdir pages
 ./bin/download.sh
 ./bin/recreate-pages.js
 
+rm -rf trees || true
+mkdir trees
+./bin/download.sh
+./bin/recreate-tree.js
+
 git pull origin gh-pages
 git add .
 git commit -m'update info'
