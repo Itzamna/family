@@ -48,7 +48,7 @@
     <div id="graph"></div>
 
 		<script>
-      treeJson = d3.json("{{ site.url }}/trees.pv-{{page.menu}}.json", function(error, treeData) {
+      treeJson = d3.json("{{ site.url }}/trees/pv-{{page.menu}}.json", function(error, treeData) {
       	dTree.init(treeData,
 					{
 						target: "#graph",
