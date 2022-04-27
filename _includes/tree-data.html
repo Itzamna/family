@@ -16,13 +16,13 @@
 			border-radius: 50%;
 	}
 	.man, .gender-1{
-	    background-color: #a1bed7;
+	    background-color: lightblue;
 			border-style: solid;
 			border-width: 1px;
 			box-sizing: border-box;
 	}
 	.woman,.gender-2 {
-			background-color: #efc9bb;
+			background-color: pink;
 			border-style: solid;
 			border-width: 1px;
 			box-sizing: border-box;
@@ -38,8 +38,8 @@
 		border-style: solid;
 		border-width: 1px;
 	}
-	.small-text, .nodeText {
-		font-size: 0.8em;
+	.small-text {
+		font-size: 0.6em;
 	}
 </style>
 
@@ -70,7 +70,7 @@
 							textRenderer: function(name, extra, textClass) {
 								if (extra && extra.nickname)
 									name = name + " <br>(" + extra.nickname + ")";
-								return "<p align='center' class='" + textClass + "'>" + name + "</p>";
+								return "<p align='center' class='small-text " + textClass + "'>" + name + "</p>";
 							},
 							marriageClick: function(extra, id) {
 								alert('Clicked marriage node' + id);
