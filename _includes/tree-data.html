@@ -1,6 +1,3 @@
----
-pid: 5
----
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
@@ -47,11 +44,11 @@ pid: 5
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script src="{{ site.url }}/assets/dtree/dTree.min.js"></script>
 <body>
-		<h1>Потомки {{page.pid}},{{pid}},{{page.menu}}</h1>
+		<h1>Потомки</h1>
     <div id="graph"></div>
 
 		<script>
-      treeJson = d3.json("{{ site.url }}/trees.pv-{{pid}}.json", function(error, treeData) {
+      treeJson = d3.json("{{ site.url }}/trees.pv-{{page.menu}}.json", function(error, treeData) {
       	dTree.init(treeData,
 					{
 						target: "#graph",
