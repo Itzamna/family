@@ -143,7 +143,7 @@
 {% if (member.spouse_all and member.spouse_all != "#N/A" and member.spouse_all != "FALSE" and member.spouse_all != "0" )  %}  
   {% assign spa = member.spouse_all | split: ","  %}
     {% assign counta = spa  | size  %}
-<div class="col-md-3">
+<div class="col-md-12">
   <h2>Супруги ({{counta}})</h2>
   <ul>
   {% for sp1 in spa %}
@@ -153,9 +153,11 @@
         {% endif %} 
   {% endfor %}
   </ul>  
+  </div> 
 {% endif %} 
   
 {% if member.children and member.children != "#N/A" and member.children != "FALSE"  %}  
+<div class="col-md-12">  
   {% assign childs = member.children | split: ","  %}
     {% assign count = childs  | size  %}
   
@@ -198,6 +200,7 @@
         <li><a href="{{ site.url }}/pages/{{grgrchild}}.html">{{people}}</a></li>
   {% endfor %}
   </ul>  
+  </div> 
 {% endif %}  
  
 {% if member.sibs % and member.sibs != "#N/A" and member.sibs != "FALSE" %}   
