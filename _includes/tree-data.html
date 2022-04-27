@@ -39,7 +39,7 @@
 		border-width: 1px;
 	}
 	.small-text {
-		font-size: 0.6em;
+		font-size: 0.8em;
 	}
 </style>
 
@@ -62,15 +62,18 @@
 						width: 1200,
 						callbacks: {
 							nodeClick: function(name, extra) {
-								alert('Click: ' + name);
+                document.location.href = "http://yandex.ru";
+
 							},
 							nodeRightClick: function(name, extra) {
 								alert('Right-click: ' + name);
 							},
 							textRenderer: function(name, extra, textClass) {
 								if (extra && extra.nickname)
-									name = name + " <br>(" + extra.nickname + ")";
-								return "<p align='center' class='small-text " + textClass + "'>" + name + "</p>";
+									name = name + " <br><span class='small-text'>(" + extra.nickname + ")</span>";
+								if (extra && extra.photo)
+									name = name + " <br><img src='{{ site.url }}/assets/img/photo/" + extra.photo + "' class='img-fluid' height='90px'>";
+								return "<p align='center' class='" + textClass + "'>" + name + "</p>";
 							},
 							marriageClick: function(extra, id) {
 								alert('Clicked marriage node' + id);
