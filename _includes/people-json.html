@@ -7,23 +7,19 @@
 "name": "{{ name }}",
 "class": "gender-{{gender}}",
 {% if bdate[0] == nil and ddate[0] == nil %}  
+"extra": {
+  "nickname": ""
+}
 {%elsif bdate[0] != nil and ddate[0] == nil%} 
 "extra": {
   "nickname": "р. {{bdate[0]}}"
-},
+}
 {%elsif ddate[0] != nil and bdate[0] == nil%} 
 "extra": {
-  "nickname": "&#8224; у. {{ddate[0]}}"
-},
+  "nickname": " &#8224; у. {{ddate[0]}}"
+}
 {%elsif bdate[0] != nil and ddate[0] != nil %} 
 "extra": {
-  "nickname": "&#8224; {{bdate[0]}} &mdash; {{ddate[0]}}"
-},
+  "nickname": " &#8224; {{bdate[0]}} &mdash; {{ddate[0]}}"
+}
 {% endif %}  
-
-
-
-{% assign links = photo[0] | split: "," |first %}
-{% for img in links %}
-"photo":{{ site.url }}/assets/img/photo/{{img}}" width="90px">
-{% endfor %} 
