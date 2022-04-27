@@ -1,0 +1,39 @@
+{% assign plv = site.data.family | where: "id", fid  %} 
+{{fid}}
+  {% assign pgender = plv | map: "gender"  %} 
+  {% assign pspouse = plv | map: "spouse_all"  %}{% include people-json.html id=fid %}{% if (pspouse[0] and pspouse[0] != "#N/A" and pspouse[0] != "FALSE" )  %},
+  {% if pgender[0]=="1" %}
+    {% assign level1 = date | where: "f", fid | group_by: "m" %} 
+  {% else %}
+    {% assign level1 = date | where: "m", fid| group_by: "f" %} 
+  {% endif %}
+
+  "marriages": [
+  {% for lv1 in level1 %}
+   {
+      "spouse": {
+        {% if lv1.name != nil %}
+          {% capture fid %}{{ lv1.name }}{% endcapture %}
+          {% include people-json.html id=fid %}
+        {% endif %}
+      },
+ 
+      {% assign lv1childs = lv1.items  %}
+      "children": [
+      {% for lv1child in lv1childs %}
+        {
+          {% capture fid %}{{ lv1child.id }}{% endcapture %}
+    
+    
+    
+          {% include plv-all.json fid=fid %}
+    
+    
+    
+        }{% if forloop.last %}{% else %},{% endif %}
+      {% endfor %}  
+      ]
+    }{% if forloop.last %}{% else %},{% endif %}
+    {% endfor %}
+   ]
+{% endif %} 

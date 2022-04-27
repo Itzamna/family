@@ -1,0 +1,30 @@
+---
+limit: 100
+---
+{% assign date = site.data.family%}
+{% assign member = site.data.family.[6] %}
+{% assign fff = member.fff %}   
+{
+  {% capture fid %}{{ member.fff }}{% endcapture %}
+  {% include people-json.html id=fid %},
+  "textClass": "emphasis",
+  {% assign fffchildren = date | where: "f", member.fff | group_by: "m" %}  
+
+{% for fffchild in fffchildren %}
+ "marriages": [{
+    "spouse": {
+      {% capture fid %}{{ fffchild.name }}{% endcapture %}
+      {% include people-json.html id=fid %}
+    },
+
+  {% assign fffchildids = fffchild.items  %}
+  "children": [{
+   {% for fffchildid in fffchildids %}
+          {
+            {% capture fid %}{{ fffchildid.id }}{% endcapture %}
+            {% include people-json.html id=fid %}
+          }{% if forloop.last %}{% else %},{% endif %}<br>
+  {% endfor %}  
+}
+{% endfor %}  
+

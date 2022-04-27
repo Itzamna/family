@@ -6,8 +6,9 @@
   {% for mday in mdays %}
         
         {% assign mdate = mday | map: "birthdate" %}     
+        {% assign ddate = mday | map: "deathdate" %}     
         {% assign tmdate = mdate[0] | date: "%d.%m" %}
-          {% if mnow == tmdate %}
+          {% if mnow == tmdate and ddate[0]==nil%}
             {% assign ii = ii | plus: 1 %} 
             {% if ii == 1 %}
             <h2>Сегодняшние именинники:</h2>

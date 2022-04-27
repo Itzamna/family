@@ -14,35 +14,9 @@ description: родословная и немного истории одной 
   </div>
   <div class="row">
     <div class="col-md-12">
-
-      {% assign data = site.data.family%}
-      {% assign member = site.data.family[0] %}
-
-      {% assign fff = member.fff %}   
-      [{
-        {% capture fid %}{{ fff }}{% endcapture %}
-        {% include people-json.html id=fid %},
-        "textClass": "emphasis",
-        {% assign fffchildren = data | where: "father", fff | group_by: "mother" %}  
- {% for fffchild in fffchildren %}
-       "marriages": [{
-          "spouse": {
-            {% capture fid %}{{ fffchild.name }}{% endcapture %}
-            {% include people-json.html id=fid %},
-          },
-        {% assign fffchildids = fffchild.items  %}
-    "children": [{
-     {% for fffchildid in fffchildids %}
-            {
-              {% capture fid %}{{ fffchildid.id }}{% endcapture %}
-              {% include people-json.html id=fid %},
-            },
-    {% endfor %}  
-      }]   
-    {% endfor %}  
-
-
-
+      
+            {% include plv-all.json fid="51" %}
+            {% include tree-data.html %}
     </div> 
   </div>
 </div>

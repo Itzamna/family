@@ -4,6 +4,5 @@
 {% assign ddate = data | map: "deathdate"  %}      
 {% assign photo = data | map: "photo" %}      
 {% assign gender = data | map: "gender" %}      
-
 "name": "{{ name }}",
-"class": "{% if gender[0] == 1}man{%else%}woman{% endif %}"
+"class": "gender-{{gender}}"
