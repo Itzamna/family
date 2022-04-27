@@ -19,7 +19,7 @@
  
       {% assign lv1childs = lv1.items  %}
       "children": [
-      {% for lv1child in lv1childs %}
+      {% for lv1child in lv1childs limit: lmt %}
         {
           {% capture fid %}{{ lv1child.id }}{% endcapture %}
     
