@@ -8,7 +8,7 @@
   {% endif %}
 
   "marriages": [
-  {% for lv1 in level1 %}
+  {% for lv1 in level1 limit: lmt %}
    {
       "spouse": {
         {% if lv1.name != nil %}
