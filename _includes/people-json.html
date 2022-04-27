@@ -9,7 +9,7 @@
 {% if bdate[0] == nil and ddate[0] == nil %}  
 "extra": {
   "nickname": "",
-  "textClass": "small-text"
+  "rosa": "small-text"
 }
 {%elsif bdate[0] != nil and ddate[0] == nil%} 
 "extra": {
@@ -18,12 +18,12 @@
 {%elsif ddate[0] != nil and bdate[0] == nil%} 
 "extra": {
   "nickname": " &#8224; у. {{ddate[0]}}",
-  "textClass": "small-text"
+  "rosa: "small-text"
 }
 {%elsif bdate[0] != nil and ddate[0] != nil %} 
 "extra": {
   "nickname": " &#8224; {{bdate[0]}} &mdash; {{ddate[0]}}",
-  "textClass": "small-text"
+  "rosa": "small-text"
 
 
 }
