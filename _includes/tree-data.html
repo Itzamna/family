@@ -61,8 +61,8 @@
 						height: 800,
 						width: 1200,
 						callbacks: {
-							nodeClick: function(name, extra) {
-                document.location.href = "http://yandex.ru";
+							nodeClick: function(namr, extra) {
+                document.location.href = "{{ site.url }}/pages/" + extra.id + ".html";
 
 							},
 							nodeRightClick: function(name, extra) {
