@@ -6,5 +6,5 @@ const lodash = require('lodash');
 lodash.keys(members).forEach((menu) => {
   fs.writeFileSync(
     `${__dirname}/../trees/pv-${menu}.json`,
-    `---\npid: ${menu}\nlmt: 4\n---\n{% include output-after.json %}`);
+    `---\npid: ${menu}\nlmt: 7\n---\n{% include output-after.json %}`);
 });
