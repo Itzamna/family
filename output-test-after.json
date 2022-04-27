@@ -7,6 +7,6 @@ pid: 51
 [{
 {% capture fid %}{{ page.pid }}{% endcapture %}
 {% include people-json.html id=fid %},
-"textClass": "emphasis"{% if pidgender and pidgender != "#N/A" and pidgender != "FALSE" and pidgender != "0"  %},{% include level1.json %}
+"textClass": "emphasis"{% if pidgender and pidgender != "#N/A" and pidgender != "FALSE" and pidgender != "0"  %},{% include plv-all.json fid=fid %}
   {% endif %}
 }]

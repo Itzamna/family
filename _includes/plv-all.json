@@ -1,5 +1,4 @@
 {% assign plv = site.data.family | where: "id", fid  %} 
-{{fid}}
   {% assign pgender = plv | map: "gender"  %} 
   {% assign pspouse = plv | map: "spouse_all"  %}{% include people-json.html id=fid %}{% if (pspouse[0] and pspouse[0] != "#N/A" and pspouse[0] != "FALSE" )  %},
   {% if pgender[0]=="1" %}
