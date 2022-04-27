@@ -12,11 +12,8 @@
         <p><b>Дата рождения:</b> {{member.birthdate}}</p>
         {% elsif member.deathdate %}
         <p><b>&#8224; Дата смерти:</b> {{member.deathdate}}</p>
-
         {% endif %}
-
-
-        <p> {{member.about}}</p>
+        {% if (member.about and member.about != "#N/A" and member.about != "FALSE" and member.about != "0" )  %}  <p>{{member.about}}</p>{% endif %}
       </div>
     </div>
     <div class="col-md-4 col-xs-12 col-sm-12">
@@ -27,7 +24,25 @@
         </a>
     {% endfor %}  
   </div>
-  </div> 
+</div> 
+  
+{% assign links = member.photo | split: "," %}
+    
+{% if member.photo %}  
+  <div class="row">   
+  <h3>Фотоальбом:</h3>
+{% if member.comment %}<p>{{member.comment}}</p>{% endif %}   
+  <div class="photo">
+    {% for img in links %}
+        <a href="{{ site.url }}/assets/img/photo/{{img}}" class="thickbox">
+          <img src="{{ site.url }}/assets/img/photo/{{img}}" class="img-fluid" height="200px">
+        </a>
+    {% endfor %} 
+</div> 
+ {% endif %} 
+
+
+
 
   <div class="hr"></div>
 
@@ -35,7 +50,6 @@
 
   <div class="row">  
     <div class="col-md-12">
-      <h3> Родословная:</h3>
       {% if (member.f and member.f !="0") or (member.m and member.m !="0") %}
       <div class="table-responsive">                  
         <table class="table-pedigree">
@@ -123,11 +137,13 @@
       {% endif %}
     </div>  
   </div> 
- 
+  
+<div class="row">  
+
 {% if (member.spouse_all and member.spouse_all != "#N/A" and member.spouse_all != "FALSE" and member.spouse_all != "0" )  %}  
   {% assign spa = member.spouse_all | split: ","  %}
     {% assign counta = spa  | size  %}
-  
+<div class="col-md-3">
   <h2>Супруги ({{counta}})</h2>
   <ul>
   {% for sp1 in spa %}
@@ -149,12 +165,13 @@
        {% assign people = site.data.family | where: "id", child | map: "name" %}
         <li><a href="{{ site.url }}/pages/{{child}}.html">{{people}}</a></li>
   {% endfor %}
-  </ul>  
+  </ul>
+  </div> 
 {% endif %} 
   
 
 {% if member.grandchildren and member.grandchildren != "#N/A" and member.grandchildren != "FALSE"  %}  
-
+<div class="col-md-3">
   {% assign grchilds = member.grandchildren | split: ","  %}
     {% assign count = grchilds  | size  %}
   
@@ -165,10 +182,12 @@
        {% assign people = site.data.family | where: "id", grchild | map: "name" %}
         <li><a href="{{ site.url }}/pages/{{grchild}}.html">{{people}}</a></li>
   {% endfor %}
-  </ul>  
+  </ul> 
+  </div>  
 {% endif %} 
   
 {% if member.grandgrandchildren and member.grandgrandchildren != "#N/A" and member.grandgrandchildren != "FALSE"  %}  
+<div class="col-md-3">  
   {% assign grgrchilds = member.grandgrandchildren | split: ","  %}
     {% assign count = grgrchilds  | size  %}
   
@@ -191,10 +210,12 @@
         <li><a href="{{ site.url }}/pages/{{sib}}.html">{{people}}</a></li>
   {% endfor %}
   </ul>  
+  </div> 
 {% endif %} 
   
   
-{% if member.stepsibs and member.stepsibs != "#N/A"  and member.stepsibs != "FALSE" %}    
+{% if member.stepsibs and member.stepsibs != "#N/A"  and member.stepsibs != "FALSE" %}  
+<div class="col-md-3"> 
   {% assign ssibs = member.stepsibs | split: ","  %}
     {% assign count = ssibs  | size  %}
    <h2>Сводные братья и сестры ({{count}})</h2>
@@ -203,11 +224,13 @@
        {% assign people = site.data.family | where: "id", stepsib | map: "name" %}
         <li><a href="{{ site.url }}/pages/{{stepsib}}.html">{{people}}</a></li>
   {% endfor %}
-  </ul>   
+  </ul>
+  </div> 
 {% endif %}   
   
   
 {% if member.nephews and member.nephews != "#N/A"  and member.nephews != "FALSE" %}  
+<div class="col-md-3"> 
   {% assign nephews = member.nephews | split: ","  %}
     {% assign count = nephews  | size  %}
    <h2>Племянники ({{count}})</h2>
@@ -217,9 +240,11 @@
         <li><a href="{{ site.url }}/pages/{{nephew}}.html">{{people}}</a></li>
   {% endfor %}
   </ul>   
+  </div> 
 {% endif %}
 
 {% if member.twins and member.twins != "#N/A"  and member.twins != "FALSE" %}  
+<div class="col-md-3"> 
   {% assign twins = member.twins | split: ","  %}
     {% assign count = twins  | size  %}
    <h2>Двоюродные братья и сестры ({{count}})</h2>
@@ -228,10 +253,12 @@
        {% assign people = site.data.family | where: "id", twin | map: "name" %}
         <li><a href="{{ site.url }}/pages/{{twin}}.html">{{people}}</a></li>
   {% endfor %}
-  </ul>   
+  </ul> 
+  </div> 
 {% endif %} 
   
 {% if member.nephews-2 and member.nephews-2 != "#N/A"  and member.nephews-2 != "FALSE" %}  
+<div class="col-md-3"> 
   {% assign nephews-2 = member.nephews-2 | split: ","  %}
     {% assign count = nephews-2  | size  %}
    <h2>Двоюродные племянники ({{count}})</h2>
@@ -241,9 +268,11 @@
         <li><a href="{{ site.url }}/pages/{{n2}}.html">{{people}}</a></li>
   {% endfor %}
   </ul>   
+  </div> 
 {% endif %}  
   
-{% if member.uncles and member.uncles != "#N/A"  and member.uncles != "FALSE" %}  
+{% if member.uncles and member.uncles != "#N/A"  and member.uncles != "FALSE" %} 
+<div class="col-md-3"> 
     {% assign uncles = member.uncles | split: ","  %}
     {% assign count = uncles | size  %}
    <h2>Дяди и тети ({{count}})</h2>
@@ -253,25 +282,18 @@
        {% assign people = site.data.family | where: "id", uncle | map: "name" %}
         <li><a href="{{ site.url }}/pages/{{uncle}}.html">{{people}}</a></li>
   {% endfor %}
-  </ul>   
+  </ul>  
+  </div> 
 {% endif %}
+ 
+  </div>   
   
-  
-{% assign links = member.photo | split: "," %}
-  
-  
-{% if member.photo %}  
-  <h3>Фотоальбом:</h3>
-{% if member.comment %}<p>{{member.comment}}</p>{% endif %}   
-  <div class="photo">
-    {% for img in links %}
-        <a href="{{ site.url }}/assets/img/photo/{{img}}" class="thickbox">
-          <img src="{{ site.url }}/assets/img/photo/{{img}}" class="img-fluid" width="350px">
-        </a>
-    {% endfor %}     
-  </div>
-{% endif %}     
 
+    
+{% if member.children and member.children != "#N/A" and member.children != "FALSE"  %}  
+<div class="row">   
 {% include tree-data.html pid=page.menu%}
-
+</div>   
+  
+{% endif %}   
 
