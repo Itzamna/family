@@ -51,14 +51,14 @@
     <div id="graph"></div>
 
 		<script>
-      treeJson = d3.json("{{ site.url }}/trees/pv-{{page.menu}}.json", function(error, treeData) {
+      treeJson = d3.json("{{ site.url }}/pv-test.json", function(error, treeData) {
       	dTree.init(treeData,
 					{
 						target: "#graph",
 						debug: true,
-						hideMarriageNodes: true,
+						hideMarriageNodes: false,
 						marriageNodeSize: 10,
-						//nodeWidth: 120,
+						nodeWidth: 120,
 						height: 800,
 						width: 1200,
 						callbacks: {
@@ -88,3 +88,4 @@
     </script>
 </body>
 </html>
+

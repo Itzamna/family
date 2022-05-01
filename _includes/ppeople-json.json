@@ -1,0 +1,14 @@
+{% assign data = site.data.family | where: "id", include.pid  %}  
+{% assign name = data | map: "name" %}      
+{% assign bdate = data | map: "birthdate" %}      
+{% assign ddate = data | map: "deathdate"  %}      
+{% assign photo = data | map: "photo" %}      
+{% assign gender = data | map: "gender" %}     
+{% assign img = photo[0] | split: "," |first %}
+
+"name": "{{ name[0] }}",
+"class": "gender-{{gender[0]}}",
+"extra": {
+  "id": "{{ include.pid }}",
+  "nickname": "{% if bdate[0] == nil and ddate[0] == nil %}{%elsif bdate[0] != nil and ddate[0] == nil%}р. {{bdate[0]}}{%elsif ddate[0] != nil and bdate[0] == nil%} &#8224; у. {{ddate[0]}}{%elsif bdate[0] != nil and ddate[0] != nil %} &#8224 {{bdate[0]}} &mdash; {{ddate[0]}} {% endif %}"{% if img != nil and img %},"photo": "{{img}}"{% endif %}
+},

@@ -1,0 +1,50 @@
+{% assign d = site.data.family[page.pid] %}
+{% assign data = site.data.family  %}
+{% assign dd = data| where: 'id', fff %}
+{% assign ddf = dd | map: "f" %}
+{% assign ddff = dd | map: "ff" %}
+{% assign ddfff = dd | map: "fff" %}
+{% assign ddffm = dd | map: "ffm" %}
+{% assign ddfm = dd | map: "fm" %}
+{% assign ddfmf = dd | map: "fmf" %}
+{% assign ddfmm = dd | map: "fmm" %}
+{% assign ddm = dd | map: "m" %}
+{% assign ddmf = dd | map: "mf" %}
+{% assign ddmff = dd | map: "mff" %}
+{% assign ddmfm = dd | map: "mfm" %}
+{% assign ddmm = dd | map: "mm" %}
+{% assign ddmmf = dd | map: "mmf" %}
+{% assign ddmmm = dd | map: "mmm" %}
+{% assign ddd = data| where: 'id', 5 | first %}
+{{ddd}}<br>
+{{ddd[id]}}<br>
+{{ddd[name]}}<br>
+{{ddd[0]}}<br>
+[
+  {
+    
+    {% capture pid %}{{ page.pid }}{% endcapture %}
+    {% if pid and pid != "0" and pid != nil  %}
+      {% include ppeople-json.json pid=pid %}
+    {% endif %}
+    "parents":[
+      {
+      {% capture pid %}{{ d.f }}{% endcapture %}
+      {% if pid and pid != "0" and pid != nil  %}
+        {% include ppeople-json.json pid=pid %}
+      {% endif %}
+      },
+      {
+  
+      {% capture pid %}{{ d.m }}{% endcapture %}
+      {% if pid and pid != "0" and pid != nil  %}
+        {% include ppeople-json.json pid=pid %}
+      {% endif %}
+  
+      }
+    ]
+    
+  }
+  
+  
+]

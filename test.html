@@ -1,0 +1,80 @@
+---
+layout: default
+menu: index
+keywords:  история
+description: родословная и немного истории одной семьи
+pid: 3
+---
+<div class="container content" >
+  <div class="row">
+    <div class="col-md-12">
+      <div class="title-box-v2">
+        <h2>История одной <span class="color-green">семьи</span></h2>
+      </div>
+    </div> 
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+
+{% assign d = site.data.family[page.pid] %}
+{% assign id = page.pid %}
+{% assign df = d.f %}
+{% assign dff = d.ff %}
+{% assign dfff = d.fff %}
+{% assign dffm = d.ffm %}
+{% assign dfm = d.fm %}
+{% assign dfmf = d.fmf %}
+{% assign dfmm = d.fmm %}
+{% assign dm = d.m %}
+{% assign dmf = d.mf %}
+{% assign dmff = d.mff %}
+{% assign dmfm = d.mfm %}
+{% assign dmm = d.mm %}
+{% assign dmmf = d.mmf %}
+{% assign dmmm = d.mmm %}
+      
+{% assign md = site.data.family %}
+{% assign patterns = "" | split,"" %}
+
+{% capture classorders %}
+{{df}}
+{{dff}}
+{{dfff}}
+{% endcapture %}
+{% assign classorders = classorders | strip | newline_to_br | strip_newlines | split: "<br />" %}
+
+<br>
+{% for tclass in classorders %}
+{% for page in md %}
+
+  {% if page.id == tclass %}
+    {% assign patterns = patterns | push:page %}
+     "Человек": {{page.id}}<Br>
+      "Отец":{{page.f}}<br>
+      "Мать":{{page.m}}<br>
+  {% endif %}
+{% endfor %}
+{% endfor %}
+
+{% assign sortedPages = patterns | sort:"id" | reverse %}
+
+{{sortedPages}}
+
+
+{% assign patterns = "" | split,"" %}
+
+{% for page in site.pages %}
+{% if page.categories contains "design-pattern" or page.categories contains "anti-pattern" %}
+{% assign patterns = patterns | push:page %}
+{% endif %}
+{% endfor %}
+
+{% assign sortedPages = patterns | sort:"date" | reverse %}
+      <br>
+      {% assign theproduct = md | where:"id", 4 | first %}
+      {{theproduct}}<br>
+      {{theproduct[name]}}
+    </div> 
+  </div>
+</div>
+

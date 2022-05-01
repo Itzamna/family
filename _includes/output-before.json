@@ -1,0 +1,13 @@
+{% assign d = site.data.family[page.pid] %}
+{% assign fid = d.f %}
+{% assign mid = d.m %}
+
+[
+  {
+      {% capture fid %}{{ fid }}{% endcapture %}
+      {% capture pid %}{{ page.pid }}{% endcapture %}
+      {% capture mid %}{{ mid }}{% endcapture %}
+      {% capture ii %}0{% endcapture %}
+      {% include parents.json fid=fid mid=mid pid=pid ii=ii my_array='' %}
+  }
+]

@@ -1,0 +1,79 @@
+
+{% capture fid %}{{include.fid}}{% endcapture %}
+{% capture pid %}{{include.pid}}{% endcapture %}
+{% capture mid %}{{include.mid}}{% endcapture %}
+{% capture ii %}{{include.ii}}{% endcapture %}
+
+{% assign my_array = include.my_array | split: ' ' %}
+
+{% capture my_array %}{{ my_array| push: ii }}{% endcapture %}
+
+{% if pid and pid != "0" and pid != nil  %}
+  {% capture ii %}{{ ii | plus: 1}}{% endcapture %}
+  "level": "{{ ii }}",
+  "array": "{{my_array}}",
+  {% include ppeople-json.json pid=pid %}
+{% else %}
+  "level": "{{ ii }}",
+  "array": "{{my_array}}",
+{% endif %}
+
+
+    {% assign plv = site.data.family | where: "id", fid  %} 
+    {% assign ffid = plv | map: "f"  %} 
+    {% assign fmid = plv | map: "m"  %} 
+    {% capture ffid %}{{ ffid[0] }}{% endcapture %}
+    {% capture fpid %}{{ fid }}{% endcapture %}
+    {% capture fmid %}{{ fmid[0]}}{% endcapture %}
+    {% assign plv1 = site.data.family | where: "id", mid  %} 
+    {% assign mfid1 = plv1 | map: "f"  %} 
+    {% assign mmid1 = plv1 | map: "m"  %} 
+    {% capture mfid %}{{ mfid1[0] }}{% endcapture %}
+    {% capture mpid %}{{ mid }}{% endcapture %}
+    {% capture mmid %}{{ mmid1[0] }}{% endcapture %}
+
+
+{% if 
+ ((ffid and ffid != "0" and ffid != nil) or (fmid and fmid != "0" and fmid != nil) and (fpid and fpid != "0" and fpid != nil)  and (fpid != ffid) and (fpid != fmid)  and (ffid != fmid)) 
+ and ((mfid and mfid != "0" and mfid != nil) or (mmid and mmid != "0" and mmid != nil) and (mpid and mpid != "0" and mpid != nil) and (mpid != mfid) and (mpid != mmid)  and (mfid != mmid))%}
+"parrents": [
+  {
+      {% include parents.json fid=ffid mid=fmid  pid=fpid ii=ii my_array=my_array %}
+  },
+  {
+      {% include parents.json fid=mfid mid=mmid  pid=mpid ii=ii my_array=my_array%}
+  }
+  
+]
+{%elsif (ffid and ffid != "0" and ffid != nil) or (fmid and fmid != "0" and fmid != nil) and (fpid and fpid != "0" and fpid != nil)  and (fpid != ffid) and (fpid != fmid)  and (ffid != fmid) %}
+
+"parrents": [
+  {
+      {% include parents.json fid=ffid mid=fmid  pid=fpid ii=ii my_array=my_array %}
+
+  },
+  {
+     
+  }
+  
+]
+{%elsif (mfid and mfid != "0" and mfid != nil) or (mmid and mmid != "0" and mmid != nil) and (mpid and mpid != "0" and mpid != nil) and (mpid != mfid) and (mpid != mmid)  and (mfid != mmid) %}
+
+"parrents": [
+  {
+
+  },
+  {
+     {% include parents.json fid=mfid mid=mmid  pid=mpid ii=ii my_array=my_array%}
+  }
+  
+]
+{%else%}
+"parrents": [
+  {
+  },
+  {
+  }
+]
+
+{% endif %}
