@@ -7614,9 +7614,9 @@
     "sibs": "187",
     "stepsibs": "#N/A",
     "spouse": "",
-    "spouse_f": "0,269",
+    "spouse_f": "340,269",
     "res1": "",
-    "spouse_all": "0,269",
+    "spouse_all": "340,269",
     "comment": "",
     "photo": "230.png,231.png,232.png",
     "vov": "",
@@ -7642,7 +7642,7 @@
   "191": {
     "id": "191",
     "name": "Малахова Светлана",
-    "f": "0",
+    "f": "340",
     "m": "190",
     "gender": "2",
     "viewlist": "",
@@ -7677,12 +7677,12 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "#N/A"
+    "nephews-2": "314,315,334,335,337,338"
   },
   "192": {
     "id": "192",
     "name": "Малахова Ирина",
-    "f": "0",
+    "f": "340",
     "m": "190",
     "gender": "2",
     "viewlist": "",
@@ -7717,7 +7717,7 @@
     "nephews": "#N/A",
     "grandchildren": "#N/A",
     "grandgrandchildren": "#N/A",
-    "nephews-2": "#N/A"
+    "nephews-2": "314,315,334,335,337,338"
   },
   "193": {
     "id": "193",
@@ -8616,7 +8616,7 @@
     "spouse": "",
     "spouse_f": "#N/A",
     "res1": "",
-    "spouse_all": "#REF!",
+    "spouse_all": "#N/A",
     "comment": "",
     "photo": "",
     "vov": "",
@@ -13601,7 +13601,7 @@
   },
   "340": {
     "id": "340",
-    "name": "",
+    "name": "Малахов",
     "f": "0",
     "m": "0",
     "gender": "2",
