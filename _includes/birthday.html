@@ -1,5 +1,6 @@
 {% assign mdays = site.data.family| where_exp: "id", "id.birthdate contains '.'" %} 
 {% assign mnow = site.time | date: "%d.%m" %}
+{{ mnow }}
 {% assign ii = 0 %} 
 
 
