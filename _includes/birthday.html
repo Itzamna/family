@@ -1,6 +1,6 @@
 {% assign mdays = site.data.family| where_exp: "id", "id.birthdate contains '.'" %} 
 {% assign mnow = site.time | date: "%d.%m" %}
-{{ mnow }}
+{{ mnow  }}
 {% assign ii = 0 %} 
 
 
@@ -12,7 +12,7 @@
           {% if mnow == tmdate and ddate[0]==nil%}
             {% assign ii = ii | plus: 1 %} 
               {% if ii == 1 %}
-              <h2>Сегодняшние именинники:</h2>
+              <h2>Сегодня {{ mnow  }} и сегодняшние именинники:</h2>
               {% endif %} 
             {% capture fid %}{{ mday.id }}{% endcapture %}
               {% include people.html id=fid %}
