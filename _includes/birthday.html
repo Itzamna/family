@@ -1,9 +1,6 @@
 {% assign mdays = site.data.family| where_exp: "id", "id.birthdate contains '.'" %} 
 {% assign mnow = site.time | date: "%d.%m" %}
-{{ mnow  }}
 {% assign ii = 0 %} 
-
-
   {% for mday in mdays %}
         
         {% assign mdate = mday | map: "birthdate" %}     
