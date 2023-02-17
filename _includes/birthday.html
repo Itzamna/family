@@ -10,11 +10,11 @@
         {% assign tmdate = mdate[0] | date: "%d.%m" %}
           {% if mnow == tmdate and ddate[0]==nil%}
             {% assign ii = ii | plus: 1 %} 
-            {% if ii == 1 %}
-            <h2>Сегодняшние именинники:</h2>
-            {% endif %} 
+              {% if ii == 1 %}
+              <h2>Сегодняшние именинники:</h2>
+              {% endif %} 
             {% capture fid %}{{ mday.id }}{% endcapture %}
-            {% include people.html id=fid %}
+              {% include people.html id=fid %}
             <hr>
           {% endif %} 
   {% endfor %}
