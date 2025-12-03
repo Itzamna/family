@@ -16,7 +16,7 @@
 "class": "gender-2",
 "extra": {
   "id": "79",
-  "nickname": "р. 19.01.1999"
+  "nickname": "р. 19.01.1998"
 }
 ,
 "textClass": "emphasis", 
@@ -33,7 +33,7 @@
 "class": "gender-2",
 "extra": {
   "id": "79",
-  "nickname": "р. 19.01.1999"
+  "nickname": "р. 19.01.1998"
 }
 ,
   
@@ -56,7 +56,7 @@
 "class": "gender-1",
 "extra": {
   "id": "281",
-  "nickname": ""
+  "nickname": "р. 17.03.1994"
 }
 
         
@@ -84,7 +84,34 @@
 "class": "gender-2",
 "extra": {
   "id": "280",
-  "nickname": ""
+  "nickname": "р. 20.04.2021"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Скорохватов Владимир Дмитриевич",
+"class": "gender-1",
+"extra": {
+  "id": "355",
+  "nickname": "р. 07.04.2024","photo": "355-1.png"
 }
  
     
