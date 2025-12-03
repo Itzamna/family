@@ -1,0 +1,244 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Ирина",
+"class": "gender-2",
+"extra": {
+  "id": "94",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Ирина",
+"class": "gender-2",
+"extra": {
+  "id": "94",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Василий Леонидович",
+"class": "gender-1",
+"extra": {
+  "id": "62",
+  "nickname": "","photo": "134.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Илья Васильевич",
+"class": "gender-1",
+"extra": {
+  "id": "95",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гордеева Дарья Васильевна",
+"class": "gender-2",
+"extra": {
+  "id": "96",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Михаил",
+"class": "gender-1",
+"extra": {
+  "id": "230",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Ольга Михайловна",
+"class": "gender-2",
+"extra": {
+  "id": "228",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    },
+    
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гордеева Анастасия",
+"class": "gender-2",
+"extra": {
+  "id": "229",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

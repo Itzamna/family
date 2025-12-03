@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Киселев Виктор",
+"class": "gender-1",
+"extra": {
+  "id": "220",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Киселев Виктор",
+"class": "gender-1",
+"extra": {
+  "id": "220",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алешина Раиса Николаевна",
+"class": "gender-2",
+"extra": {
+  "id": "200",
+  "nickname": "р. 1950","photo": "181.png"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Киселева Надежда Викторовна",
+"class": "gender-2",
+"extra": {
+  "id": "219",
+  "nickname": "","photo": "250.png"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

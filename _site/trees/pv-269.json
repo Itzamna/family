@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Евдокимов Николай",
+"class": "gender-1",
+"extra": {
+  "id": "269",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Евдокимов Николай",
+"class": "gender-1",
+"extra": {
+  "id": "269",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Евдокимова Раиса Васильевна",
+"class": "gender-2",
+"extra": {
+  "id": "190",
+  "nickname": "р. 08.08.1940","photo": "230.png"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Евдокимов Андрей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "193",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

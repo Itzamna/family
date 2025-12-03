@@ -1,0 +1,304 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Пелагея Лукьяновна",
+"class": "gender-2",
+"extra": {
+  "id": "144",
+  "nickname": " &#8224; у. 24.10.1977","photo": "70.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Пелагея Лукьяновна",
+"class": "gender-2",
+"extra": {
+  "id": "144",
+  "nickname": " &#8224; у. 24.10.1977","photo": "70.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Алексей",
+"class": "gender-1",
+"extra": {
+  "id": "150",
+  "nickname": "","photo": "41.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Николай Алексеевич ",
+"class": "gender-1",
+"extra": {
+  "id": "151",
+  "nickname": "","photo": "59.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Мария Леонидовна",
+"class": "gender-2",
+"extra": {
+  "id": "174",
+  "nickname": "","photo": "138.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Валерий Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "175",
+  "nickname": "","photo": "60.jpg"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Юрий Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "176",
+  "nickname": "","photo": "60.jpg"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Сергей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "177",
+  "nickname": "","photo": "60.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Иван Алексеевич",
+"class": "gender-1",
+"extra": {
+  "id": "152",
+  "nickname": "","photo": "44.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Наталья Ивановна",
+"class": "gender-2",
+"extra": {
+  "id": "173",
+  "nickname": "","photo": "58.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

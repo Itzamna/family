@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Архаров Анатолий",
+"class": "gender-1",
+"extra": {
+  "id": "160",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Архаров Анатолий",
+"class": "gender-1",
+"extra": {
+  "id": "160",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Степанова Мария Демьяновна",
+"class": "gender-2",
+"extra": {
+  "id": "159",
+  "nickname": "","photo": "43.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Архаров Владимир Анатольевич",
+"class": "gender-1",
+"extra": {
+  "id": "161",
+  "nickname": "","photo": "47.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]
