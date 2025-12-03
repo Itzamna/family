@@ -12,7 +12,7 @@ mkdir trees
 ./bin/recreate-pages.js
 ./bin/recreate-tree.js
 
-git pull origin gh-pages
-git add .
+git pull
+git add . -A
 git commit -m'update info'
 git push origin gh-pages
