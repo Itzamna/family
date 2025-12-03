@@ -1,0 +1,128 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Павел ",
+"class": "gender-1",
+"extra": {
+  "id": "285",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Павел ",
+"class": "gender-1",
+"extra": {
+  "id": "285",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Белянина Полина Ильинична",
+"class": "gender-2",
+"extra": {
+  "id": "30",
+  "nickname": "","photo": "241.png"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Юрий Павлович",
+"class": "gender-1",
+"extra": {
+  "id": "287",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Любовь Павловна",
+"class": "gender-2",
+"extra": {
+  "id": "288",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

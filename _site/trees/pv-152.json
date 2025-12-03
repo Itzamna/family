@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Иван Алексеевич",
+"class": "gender-1",
+"extra": {
+  "id": "152",
+  "nickname": "","photo": "44.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Иван Алексеевич",
+"class": "gender-1",
+"extra": {
+  "id": "152",
+  "nickname": "","photo": "44.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Наталья Ивановна",
+"class": "gender-2",
+"extra": {
+  "id": "173",
+  "nickname": "","photo": "58.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

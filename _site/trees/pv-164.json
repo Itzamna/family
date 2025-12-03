@@ -1,0 +1,156 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Кулага Николай Демьянович",
+"class": "gender-1",
+"extra": {
+  "id": "164",
+  "nickname": "","photo": "52.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Кулага Николай Демьянович",
+"class": "gender-1",
+"extra": {
+  "id": "164",
+  "nickname": "","photo": "52.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Кулага Зинаида",
+"class": "gender-2",
+"extra": {
+  "id": "165",
+  "nickname": "","photo": "52.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Кулага Елена",
+"class": "gender-2",
+"extra": {
+  "id": "166",
+  "nickname": "","photo": "52.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    },
+    
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Кулага Лариса",
+"class": "gender-2",
+"extra": {
+  "id": "167",
+  "nickname": "","photo": "53.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Кулага Татьяна",
+"class": "gender-2",
+"extra": {
+  "id": "168",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]
