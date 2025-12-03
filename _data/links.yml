@@ -5,7 +5,7 @@
 - url: alesenko
   alt: Истории семьи Алесенко
   ico:  fa-angle-right
-  
-- url: tree-list
-  alt: Генеалогическое древо
-  ico: fa-angle-right
+
+#- url: belyaniny
+  #alt: Истории семьи Беляниных
+  #ico:  fa-angle-right
