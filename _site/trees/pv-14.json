@@ -84,7 +84,7 @@
 "class": "gender-1",
 "extra": {
   "id": "13",
-  "nickname": " &#8224; у. 0"
+  "nickname": " &#8224 ~1892 &mdash; 0 ","photo": "lojnikovy.png"
 }
 ,
   
@@ -107,7 +107,7 @@
 "class": "gender-2",
 "extra": {
   "id": "365",
-  "nickname": "р. 1892"
+  "nickname": " &#8224 1892 &mdash; 0 ","photo": "lojnikovy.png"
 }
 
         
@@ -135,7 +135,7 @@
 "class": "gender-2",
 "extra": {
   "id": "12",
-  "nickname": " &#8224 12.07.1918 &mdash; 30.12.1993 ","photo": "223.png"
+  "nickname": " &#8224 12.07.1918 &mdash; 30.12.1993 ","photo": "anna-semenovna-1.png"
 }
 ,
   
@@ -186,7 +186,7 @@
 "class": "gender-2",
 "extra": {
   "id": "7",
-  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "7-3.jpg"
+  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "lyubov-ivanovna-1.png"
 }
 ,
   
@@ -209,7 +209,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "8-3.png"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ivan-iliich.png"
 }
 
         

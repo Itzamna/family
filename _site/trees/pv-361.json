@@ -237,7 +237,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "8-3.png"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ivan-iliich.png"
 }
 ,
   
@@ -260,7 +260,7 @@
 "class": "gender-2",
 "extra": {
   "id": "7",
-  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "7-3.jpg"
+  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "lyubov-ivanovna-1.png"
 }
 
         
@@ -1076,7 +1076,7 @@
 "class": "gender-1",
 "extra": {
   "id": "27",
-  "nickname": " &#8224 02.04.1928 &mdash; 22.05.2000 ","photo": "27-1.jpg"
+  "nickname": " &#8224 02.04.1928 &mdash; 22.05.2000 ","photo": "belyanin-vladimir.png"
 }
 ,
   
@@ -1266,7 +1266,7 @@
 "class": "gender-1",
 "extra": {
   "id": "487",
-  "nickname": "р. 15.07.1985"
+  "nickname": "р. 15.07.1985","photo": "ivanov-dmitriy.png"
 }
  
     
@@ -1512,7 +1512,7 @@
      
 
 
-"name": "Аникина Полина (пелагея) Ильинична",
+"name": "Аникина Полина (Пелагея) Ильинична",
 "class": "gender-2",
 "extra": {
   "id": "30",
@@ -1882,7 +1882,7 @@
 "class": "gender-1",
 "extra": {
   "id": "287",
-  "nickname": "р. 04.01.1975"
+  "nickname": "р. 04.01.1975","photo": "shatov-yuriy.png"
 }
  
     
@@ -1979,7 +1979,7 @@
 "class": "gender-1",
 "extra": {
   "id": "457",
-  "nickname": " &#8224 19.04.1923 &mdash; 04.08.1991 ","photo": "457-1.jpg"
+  "nickname": " &#8224 19.04.1923 &mdash; 04.08.1991 ","photo": "yudin-anatoliy.png"
 }
 
         
@@ -2007,7 +2007,7 @@
 "class": "gender-1",
 "extra": {
   "id": "458",
-  "nickname": " &#8224 18.10.1949 &mdash; 2001 "
+  "nickname": " &#8224 18.10.1949 &mdash; 2001 ","photo": "yudin-yuriy-family-1.png"
 }
 ,
   
@@ -2587,7 +2587,7 @@
 "class": "gender-2",
 "extra": {
   "id": "478",
-  "nickname": "р. 12.01.1991","photo": "478-1.jpeg"
+  "nickname": "р. 12.01.1991","photo": "pastukhova-irina.png"
 }
  
     
@@ -3395,7 +3395,7 @@
 "class": "gender-1",
 "extra": {
   "id": "369",
-  "nickname": " &#8224 1897 &mdash; 0 "
+  "nickname": " &#8224 1897 &mdash; 09.04.1945 "
 }
  
     
@@ -3504,7 +3504,7 @@
 "class": "gender-2",
 "extra": {
   "id": "365",
-  "nickname": "р. 1892"
+  "nickname": " &#8224 1892 &mdash; 0 ","photo": "lojnikovy.png"
 }
 ,
   
@@ -3527,7 +3527,7 @@
 "class": "gender-1",
 "extra": {
   "id": "13",
-  "nickname": " &#8224; у. 0"
+  "nickname": " &#8224 ~1892 &mdash; 0 ","photo": "lojnikovy.png"
 }
 
         
@@ -3555,7 +3555,7 @@
 "class": "gender-2",
 "extra": {
   "id": "12",
-  "nickname": " &#8224 12.07.1918 &mdash; 30.12.1993 ","photo": "223.png"
+  "nickname": " &#8224 12.07.1918 &mdash; 30.12.1993 ","photo": "anna-semenovna-1.png"
 }
 ,
   
@@ -3606,7 +3606,7 @@
 "class": "gender-2",
 "extra": {
   "id": "7",
-  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "7-3.jpg"
+  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "lyubov-ivanovna-1.png"
 }
 ,
   
@@ -3629,7 +3629,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "8-3.png"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ivan-iliich.png"
 }
 
         
