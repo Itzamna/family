@@ -131,10 +131,51 @@
   
 <div class="row">  
 
+  
+  
+    
+<div class="col-md-12">
+  <h2>Супруги (1)</h2>
+  <ul>
+  
+         
+             
+        <li><a href="http://localhost:4002/pages/466.html">Прыгунова Любовь Анатольевна</a></li>
+         
+  
+  </ul>  
+  </div> 
  
   
+  
+<div class="col-md-3">  
+  
+    
+  
+  <h2>Дети (1)</h2>
+  <ul>
+  
+       
+        <li><a href="http://localhost:4002/pages/468.html">Прыгунов Александр Игоревич</a></li>
+  
+  </ul>
+  </div> 
  
   
+  
+<div class="col-md-3">
+  
+    
+  
+  <h2>Внуки (1)</h2>
+     
+  <ul>
+  
+       
+        <li><a href="http://localhost:4002/pages/470.html">Прыгунов Сергей Александрович</a></li>
+  
+  </ul> 
+  </div>  
  
   
   
@@ -157,6 +198,100 @@
   
 
     
+  
+<div class="row well">   
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<style type="text/css">
+	.linage {
+	    fill: none;
+	    stroke: #000;
+	}
+	.marriage {
+	    fill: none;
+	    stroke: black;
+	}
+	.marriageNode {
+			background-color: black;
+			border-radius: 50%;
+	}
+	.man, .gender-1{
+	    background-color: lightblue;
+			border-style: solid;
+			border-width: 1px;
+			box-sizing: border-box;
+	}
+	.woman,.gender-2 {
+			background-color: pink;
+			border-style: solid;
+			border-width: 1px;
+			box-sizing: border-box;
+	}
+	.emphasis{
+			font-style: italic;
+	}
+	p {
+		padding:0;
+		margin:0;
+	}
+	svg {
+		border-style: solid;
+		border-width: 1px;
+	}
+	.small-text {
+		font-size: 0.8em;
+	}
+</style>
+
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://localhost:4002/assets/dtree/dTree.min.js"></script>
+<body>
+		<h1>Потомки</h1>
+    <div id="graph"></div>
+
+		<script>
+      treeJson = d3.json("http://localhost:4002/trees/pv-467.json", function(error, treeData) {
+      	dTree.init(treeData,
+					{
+						target: "#graph",
+						debug: true,
+						hideMarriageNodes: true,
+						marriageNodeSize: 5,
+						height: 800,
+						width: 1200,
+						callbacks: {
+							nodeClick: function(namr, extra) {
+                document.location.href = "http://localhost:4002/pages/" + extra.id + ".html";
+
+							},
+							nodeRightClick: function(name, extra) {
+								alert('Right-click: ' + name);
+							},
+							textRenderer: function(name, extra, textClass) {
+								if (extra && extra.nickname)
+									name = name + " <br><span class='small-text'>(" + extra.nickname + ")</span>";
+								if (extra && extra.photo)
+									name = name + " <br><img src='http://localhost:4002/assets/img/photo/" + extra.photo + "' class='img-fluid' height='90px'>";
+								return "<p align='center' class='" + textClass + "'>" + name + "</p>";
+							},
+							marriageClick: function(extra, id) {
+								alert('Clicked marriage node' + id);
+							},
+							marriageRightClick: function(extra, id) {
+								alert('Right-clicked marriage node' + id);
+							},
+						}
+					});
+    	});
+    </script>
+</body>
+</html>
+
+</div>   
+  
    
 
 
