@@ -1,0 +1,155 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Саченко Андрей Лукьянович",
+"class": "gender-1",
+"extra": {
+  "id": "148",
+  "nickname": "","photo": "45.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Саченко Андрей Лукьянович",
+"class": "gender-1",
+"extra": {
+  "id": "148",
+  "nickname": "","photo": "45.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Саченко Лидия",
+"class": "gender-2",
+"extra": {
+  "id": "157",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Саченко Леонид Андреевич",
+"class": "gender-1",
+"extra": {
+  "id": "154",
+  "nickname": "","photo": "54.jpg"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Саченко Георгий Андреевич",
+"class": "gender-1",
+"extra": {
+  "id": "155",
+  "nickname": "","photo": "54.jpg"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Саченко Марина Андреевна",
+"class": "gender-2",
+"extra": {
+  "id": "156",
+  "nickname": "","photo": "55.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

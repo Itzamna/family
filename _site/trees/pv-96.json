@@ -1,0 +1,156 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Гордеева Дарья Васильевна",
+"class": "gender-2",
+"extra": {
+  "id": "96",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гордеева Дарья Васильевна",
+"class": "gender-2",
+"extra": {
+  "id": "96",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Михаил",
+"class": "gender-1",
+"extra": {
+  "id": "230",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Ольга Михайловна",
+"class": "gender-2",
+"extra": {
+  "id": "228",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    },
+    
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гордеева Анастасия",
+"class": "gender-2",
+"extra": {
+  "id": "229",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]
