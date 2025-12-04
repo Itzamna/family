@@ -1,0 +1,250 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Алешина Анна Евдокимовна",
+"class": "gender-2",
+"extra": {
+  "id": "196",
+  "nickname": " &#8224 1926 &mdash; 2016 ","photo": "305.png"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алешина Анна Евдокимовна",
+"class": "gender-2",
+"extra": {
+  "id": "196",
+  "nickname": " &#8224 1926 &mdash; 2016 ","photo": "305.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алёшин Николай Фролович",
+"class": "gender-1",
+"extra": {
+  "id": "202",
+  "nickname": " &#8224 1927 &mdash; 0 ","photo": "257.png"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алешина Раиса Николаевна",
+"class": "gender-2",
+"extra": {
+  "id": "200",
+  "nickname": "р. 1950","photo": "181.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Киселев Виктор",
+"class": "gender-1",
+"extra": {
+  "id": "220",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Киселева Надежда Викторовна",
+"class": "gender-2",
+"extra": {
+  "id": "219",
+  "nickname": "","photo": "250.png"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алешин Николай Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "201",
+  "nickname": " &#8224 1951 &mdash; 0 ","photo": "247.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алешина Людмила Николаевна",
+"class": "gender-2",
+"extra": {
+  "id": "339",
+  "nickname": "","photo": "251.png"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

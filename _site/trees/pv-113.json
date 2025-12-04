@@ -1,0 +1,162 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Васильев Прокоп",
+"class": "gender-1",
+"extra": {
+  "id": "113",
+  "nickname": " &#8224; у. 0"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Васильев Прокоп",
+"class": "gender-1",
+"extra": {
+  "id": "113",
+  "nickname": " &#8224; у. 0"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Васильев Федор Прокопьевич",
+"class": "gender-1",
+"extra": {
+  "id": "114",
+  "nickname": " &#8224; у. 0"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Васильев Иван Федорович",
+"class": "gender-1",
+"extra": {
+  "id": "115",
+  "nickname": " &#8224; у. 0"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

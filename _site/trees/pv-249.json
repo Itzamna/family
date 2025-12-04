@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Макарова Екатерина",
+"class": "gender-2",
+"extra": {
+  "id": "249",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Макарова Екатерина",
+"class": "gender-2",
+"extra": {
+  "id": "249",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Макаров Сергей Викторович",
+"class": "gender-1",
+"extra": {
+  "id": "246",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Макарова Ксения Сергеевна",
+"class": "gender-2",
+"extra": {
+  "id": "248",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

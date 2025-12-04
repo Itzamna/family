@@ -1,0 +1,155 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Мария Леонидовна",
+"class": "gender-2",
+"extra": {
+  "id": "174",
+  "nickname": "","photo": "138.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Мария Леонидовна",
+"class": "gender-2",
+"extra": {
+  "id": "174",
+  "nickname": "","photo": "138.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Николай Алексеевич ",
+"class": "gender-1",
+"extra": {
+  "id": "151",
+  "nickname": "","photo": "59.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Валерий Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "175",
+  "nickname": "","photo": "60.jpg"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Юрий Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "176",
+  "nickname": "","photo": "60.jpg"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Сергей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "177",
+  "nickname": "","photo": "60.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]
