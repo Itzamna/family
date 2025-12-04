@@ -12,12 +12,29 @@
      
 
 
-"name": "",
-"class": "gender-",
+"name": "Юдин Виктор Анатольевич",
+"class": "gender-1",
 "extra": {
   "id": "471",
-  "nickname": ""
+  "nickname": "р. 26.04.1958","photo": "471-1.jpg"
 }
 ,
-"textClass": "emphasis"
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Юдин Виктор Анатольевич",
+"class": "gender-1",
+"extra": {
+  "id": "471",
+  "nickname": "р. 26.04.1958","photo": "471-1.jpg"
+}
+ 
+  
 }]

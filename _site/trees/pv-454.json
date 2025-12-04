@@ -12,12 +12,29 @@
      
 
 
-"name": "",
-"class": "gender-",
+"name": "Аникин Ребенок2 Павлович",
+"class": "gender-1",
 "extra": {
   "id": "454",
-  "nickname": " &#8224; у. 0"
+  "nickname": "р. 01.04.1950"
 }
 ,
-"textClass": "emphasis"
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Аникин Ребенок2 Павлович",
+"class": "gender-1",
+"extra": {
+  "id": "454",
+  "nickname": "р. 01.04.1950"
+}
+ 
+  
 }]
