@@ -2,23 +2,29 @@
 {% assign data = site.data.family | where: "id", include.id  %}  
 
 {% assign name = data | map: "name" %}      
+{% assign surname2 = data | map: "surname2" %}      
 {% assign bdate = data | map: "birthdate" %}      
 {% assign ddate = data | map: "deathdate"  %}      
 {% assign photo = data | map: "photo" %}      
 
-<div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ name }}</a></div>
-
- 
+<div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ name }} {% if (surname2[0]!='' and surname2[0] != nil)%}({{surname2[0]}}){% endif %}</a></div>
 
 {% if bdate[0] == nil and ddate[0] == nil %}  
 {%elsif bdate[0] != nil and ddate[0] == nil%} 
 <i><small>р. {{bdate[0]}}</small></i>
+
+{%elsif bdate[0] != nil and ddate[0] == '0'%} 
+<i><small>&#8224; р. {{bdate[0]}} - </small></i>
+
+{%elsif ddate[0] == '0' and bdate[0] == nil%} 
+<i><small>&#8224;</small></i>
 
 {%elsif ddate[0] != nil and bdate[0] == nil%} 
 <i><small>&#8224; у. {{ddate[0]}}</small></i>
 
 {%elsif bdate[0] != nil and ddate[0] != nil %} 
 <i><small>&#8224; {{bdate[0]}} &mdash; {{ddate[0]}}</small></i>
+
 
 {% endif %}  
 

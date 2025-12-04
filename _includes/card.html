@@ -10,6 +10,8 @@
         <p><b>&#8224; Годы жизни:</b> {{member.birthdate}} - {{member.deathdate}}</p>
         {% elsif member.birthdate %}
         <p><b>Дата рождения:</b> {{member.birthdate}}</p>
+        {% elsif member.deathdate =="0" %}
+        <p><b>&#8224; </p>
         {% elsif member.deathdate %}
         <p><b>&#8224; Дата смерти:</b> {{member.deathdate}}</p>
         {% endif %}
