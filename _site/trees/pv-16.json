@@ -135,7 +135,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ded-i-ivan.jpg"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "morsovo/belyanin-ivan.jpg"
 }
 ,
   
@@ -158,7 +158,7 @@
 "class": "gender-2",
 "extra": {
   "id": "7",
-  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "lyubov-ivanovna-1.png"
+  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "morsovo/belyanina-lyubov.jpg"
 }
 
         
@@ -389,7 +389,7 @@
 "class": "gender-1",
 "extra": {
   "id": "24",
-  "nickname": "р. 27.11.1960","photo": "221.png"
+  "nickname": "р. 27.11.1960","photo": "morsovo/belyanin-kolya-1.png"
 }
 ,
   
@@ -758,7 +758,7 @@
 "class": "gender-1",
 "extra": {
   "id": "81",
-  "nickname": "р. 07.08.1993"
+  "nickname": "р. 07.08.1993","photo": "belyanin-denis.png"
 }
 ,
   
@@ -3453,7 +3453,7 @@
 "class": "gender-2",
 "extra": {
   "id": "12",
-  "nickname": " &#8224 12.07.1918 &mdash; 30.12.1993 ","photo": "anna-semenovna-1.png"
+  "nickname": " &#8224 12.07.1918 &mdash; 30.12.1993 ","photo": "morsovo/kirilina-anna.png"
 }
 ,
   
@@ -3476,7 +3476,7 @@
 "class": "gender-1",
 "extra": {
   "id": "9",
-  "nickname": " &#8224 1917 &mdash; 1941 ","photo": "116.jpg"
+  "nickname": " &#8224 1917 &mdash; 1941 ","photo": "morsovo/kirilin-ivan.png"
 }
 
         
@@ -3504,7 +3504,7 @@
 "class": "gender-2",
 "extra": {
   "id": "7",
-  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "lyubov-ivanovna-1.png"
+  "nickname": " &#8224 02.08.1939 &mdash; 28.11.2025 ","photo": "morsovo/belyanina-lyubov.jpg"
 }
 ,
   
@@ -3527,7 +3527,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ded-i-ivan.jpg"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "morsovo/belyanin-ivan.jpg"
 }
 
         
@@ -3758,7 +3758,7 @@
 "class": "gender-1",
 "extra": {
   "id": "24",
-  "nickname": "р. 27.11.1960","photo": "221.png"
+  "nickname": "р. 27.11.1960","photo": "morsovo/belyanin-kolya-1.png"
 }
 ,
   
@@ -4127,7 +4127,7 @@
 "class": "gender-1",
 "extra": {
   "id": "81",
-  "nickname": "р. 07.08.1993"
+  "nickname": "р. 07.08.1993","photo": "belyanin-denis.png"
 }
 ,
   
@@ -4343,7 +4343,7 @@
 "class": "gender-1",
 "extra": {
   "id": "26",
-  "nickname": "р. 02.08.1938"
+  "nickname": "р. 02.08.1938","photo": "morsovo/kirilin-aleksey-s-ninoq-i-annoi.jpg"
 }
  
     
