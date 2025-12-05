@@ -1,0 +1,189 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Литенкова Пелагея Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "503",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенкова Пелагея Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "503",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Иван",
+"class": "gender-1",
+"extra": {
+  "id": "506",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Николай Иванович",
+"class": "gender-1",
+"extra": {
+  "id": "507",
+  "nickname": "","photo": "litenkov-nikolay.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Андрей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "508",
+  "nickname": "","photo": "litenkov-andrey.png"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Алексей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "509",
+  "nickname": "","photo": "litenkov-alexey.png"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

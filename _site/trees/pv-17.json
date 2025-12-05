@@ -16,7 +16,7 @@
 "class": "gender-2",
 "extra": {
   "id": "17",
-  "nickname": " &#8224 08.09.1879 &mdash; 1982 "
+  "nickname": " &#8224 08.09.1879 &mdash; 1982 ","photo": "belyanina-anna-efimovna.png"
 }
 ,
 "textClass": "emphasis", 
@@ -33,7 +33,7 @@
 "class": "gender-2",
 "extra": {
   "id": "17",
-  "nickname": " &#8224 08.09.1879 &mdash; 1982 "
+  "nickname": " &#8224 08.09.1879 &mdash; 1982 ","photo": "belyanina-anna-efimovna.png"
 }
 ,
   
@@ -2718,7 +2718,7 @@
 "class": "gender-2",
 "extra": {
   "id": "33",
-  "nickname": " &#8224 22.03.1914 &mdash; 0 "
+  "nickname": " &#8224 22.03.1914 &mdash; 0 ","photo": "ushakova-maria.png"
 }
 ,
   
@@ -2802,12 +2802,425 @@
      
 
 
-"name": "Белянина Анна Алексеевна",
+"name": "Бодрова Анна Алексеевна",
 "class": "gender-2",
 "extra": {
   "id": "34",
-  "nickname": " &#8224 03.02.1907 &mdash; 0 "
+  "nickname": " &#8224 03.02.1907 &mdash; 0 ","photo": "bodrova-anna-alekseevna.png"
 }
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Бодров Степан Алексеевич",
+"class": "gender-1",
+"extra": {
+  "id": "502",
+  "nickname": " &#8224; у. 0"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенкова Пелагея Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "503",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Иван",
+"class": "gender-1",
+"extra": {
+  "id": "506",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Николай Иванович",
+"class": "gender-1",
+"extra": {
+  "id": "507",
+  "nickname": "","photo": "litenkov-nikolay.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Андрей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "508",
+  "nickname": "","photo": "litenkov-andrey.png"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Литенков Алексей Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "509",
+  "nickname": "","photo": "litenkov-alexey.png"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Ширшакова Раиса Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "504",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Ширшакова Ирина",
+"class": "gender-2",
+"extra": {
+  "id": "510",
+  "nickname": "","photo": "shirshakova-irina.png"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Ширшакова Надежда",
+"class": "gender-2",
+"extra": {
+  "id": "511",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Жукова Татьяна Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "505",
+  "nickname": "","photo": "bodrova-tatiana-stepanovna.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Жуков Евгений",
+"class": "gender-1",
+"extra": {
+  "id": "512",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Жуков Вячеслав Евгеньевич",
+"class": "gender-1",
+"extra": {
+  "id": "513",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
  
     
     
