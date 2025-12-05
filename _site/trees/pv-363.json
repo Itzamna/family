@@ -237,7 +237,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ivan-iliich.png"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ded-i-ivan.jpg"
 }
 ,
   
@@ -339,7 +339,7 @@
 "class": "gender-2",
 "extra": {
   "id": "3",
-  "nickname": "р. 02.07.1987"
+  "nickname": "р. 02.07.1987","photo": "lena_min.jpg"
 }
 ,
   
@@ -362,7 +362,7 @@
 "class": "gender-1",
 "extra": {
   "id": "4",
-  "nickname": "р. 16.09.1987","photo": "140.jpg"
+  "nickname": "р. 16.09.1987","photo": "alesenko-mikhail-16.jpg"
 }
 
         
@@ -390,7 +390,7 @@
 "class": "gender-2",
 "extra": {
   "id": "1",
-  "nickname": "р. 12.10.2010"
+  "nickname": "р. 12.10.2010","photo": "alesenko-olya-34.jpg"
 }
  
     
@@ -417,7 +417,7 @@
 "class": "gender-2",
 "extra": {
   "id": "2",
-  "nickname": "р. 12.07.2015"
+  "nickname": "р. 12.07.2015","photo": "alesenko-tatiana-m-10.jpg"
 }
  
     
@@ -454,7 +454,7 @@
 "class": "gender-1",
 "extra": {
   "id": "23",
-  "nickname": "р. 31.08.1991"
+  "nickname": "р. 31.08.1991","photo": "sereja.jpg"
 }
  
     
@@ -883,7 +883,7 @@
 "class": "gender-2",
 "extra": {
   "id": "270",
-  "nickname": ""
+  "nickname": "р. 18.07.1994"
 }
 
         
@@ -1029,7 +1029,7 @@
 "class": "gender-1",
 "extra": {
   "id": "82",
-  "nickname": ""
+  "nickname": "р. 07.06.2004"
 }
  
     
@@ -2007,7 +2007,7 @@
 "class": "gender-1",
 "extra": {
   "id": "458",
-  "nickname": " &#8224 18.10.1949 &mdash; 2001 ","photo": "yudin-yuriy-family-1.png"
+  "nickname": " &#8224 18.10.1949 &mdash; 2001 ","photo": "yudiny/yuriy.jpg"
 }
 ,
   
@@ -2387,7 +2387,7 @@
 "class": "gender-1",
 "extra": {
   "id": "471",
-  "nickname": "р. 26.04.1958","photo": "471-1.jpg"
+  "nickname": "р. 26.04.1958","photo": "yudiny/viktor.jpg"
 }
 ,
   
@@ -2684,7 +2684,7 @@
 "class": "gender-2",
 "extra": {
   "id": "301",
-  "nickname": "р. 08.01.1939"
+  "nickname": " &#8224 08.01.1939 &mdash; 0 "
 }
 
         
@@ -2712,7 +2712,7 @@
 "class": "gender-1",
 "extra": {
   "id": "302",
-  "nickname": "р. 10.04.1964"
+  "nickname": "р. 10.04.1964","photo": "belyanin-neizvestnuy.jpg"
 }
 ,
   
@@ -3629,7 +3629,7 @@
 "class": "gender-1",
 "extra": {
   "id": "8",
-  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ivan-iliich.png"
+  "nickname": " &#8224 26.02.1935 &mdash; 30.07.1998 ","photo": "ded-i-ivan.jpg"
 }
 
         
@@ -3708,7 +3708,7 @@
 "class": "gender-2",
 "extra": {
   "id": "3",
-  "nickname": "р. 02.07.1987"
+  "nickname": "р. 02.07.1987","photo": "lena_min.jpg"
 }
 ,
   
@@ -3731,7 +3731,7 @@
 "class": "gender-1",
 "extra": {
   "id": "4",
-  "nickname": "р. 16.09.1987","photo": "140.jpg"
+  "nickname": "р. 16.09.1987","photo": "alesenko-mikhail-16.jpg"
 }
 
         
@@ -3759,7 +3759,7 @@
 "class": "gender-2",
 "extra": {
   "id": "1",
-  "nickname": "р. 12.10.2010"
+  "nickname": "р. 12.10.2010","photo": "alesenko-olya-34.jpg"
 }
  
     
@@ -3786,7 +3786,7 @@
 "class": "gender-2",
 "extra": {
   "id": "2",
-  "nickname": "р. 12.07.2015"
+  "nickname": "р. 12.07.2015","photo": "alesenko-tatiana-m-10.jpg"
 }
  
     
@@ -3823,7 +3823,7 @@
 "class": "gender-1",
 "extra": {
   "id": "23",
-  "nickname": "р. 31.08.1991"
+  "nickname": "р. 31.08.1991","photo": "sereja.jpg"
 }
  
     
@@ -4252,7 +4252,7 @@
 "class": "gender-2",
 "extra": {
   "id": "270",
-  "nickname": ""
+  "nickname": "р. 18.07.1994"
 }
 
         
@@ -4398,7 +4398,7 @@
 "class": "gender-1",
 "extra": {
   "id": "82",
-  "nickname": ""
+  "nickname": "р. 07.06.2004"
 }
  
     

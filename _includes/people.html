@@ -10,27 +10,23 @@
 <div class="pedigree-name"><a href="{{ site.url }}/pages/{{ include.id }}.html">{{ name }} {% if (surname2[0]!='' and surname2[0] != nil)%}({{surname2[0]}}){% endif %}</a></div>
 
 {% if bdate[0] == nil and ddate[0] == nil %}  
-{%elsif bdate[0] != nil and ddate[0] == nil%} 
-<i><small>р. {{bdate[0]}}</small></i>
+  {%elsif ddate[0] == '0' and bdate[0] == nil%} 
+    <i><small>&#8224;</small></i>
 
-{%elsif bdate[0] != nil and ddate[0] == '0'%} 
-<i><small>&#8224; р. {{bdate[0]}} - </small></i>
+  {%elsif bdate[0] != nil and ddate[0] == '0'%} 
+  <i><small>&#8224; р. {{bdate[0]}}</small></i>
 
-{%elsif ddate[0] == '0' and bdate[0] == nil%} 
-<i><small>&#8224;</small></i>
+  {%elsif bdate[0] != nil and ddate[0] == nil%} 
+  <i><small>р. {{bdate[0]}}</small></i>
 
-{%elsif ddate[0] != nil and bdate[0] == nil%} 
-<i><small>&#8224; у. {{ddate[0]}}</small></i>
+  {%elsif ddate[0] != nil and bdate[0] == nil%} 
+  <i><small>&#8224; у. {{ddate[0]}}</small></i>
 
-{%elsif bdate[0] != nil and ddate[0] != nil %} 
-<i><small>&#8224; {{bdate[0]}} &mdash; {{ddate[0]}}</small></i>
-
-
+  {%elsif bdate[0] != nil and ddate[0] != nil %} 
+  <i><small>&#8224; {{bdate[0]}} &mdash; {{ddate[0]}}</small></i>
 {% endif %}  
 
 {% assign links = photo[0] | split: "," |first %}
 {% for img in links %}
-<div class="pedigree-name"> <a href="{{ site.url }}/assets/img/photo/{{img}}" >
-      <img src="{{ site.url }}/assets/img/photo/{{img}}" width="90px">
-  </a></div>
+<div class="pedigree-name"> <a href="{{ site.url }}/assets/img/photo/{{img}}" ><img src="{{ site.url }}/assets/img/photo/{{img}}" width="90px"></a></div>
 {% endfor %} 

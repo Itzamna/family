@@ -873,7 +873,7 @@
 "class": "gender-1",
 "extra": {
   "id": "4",
-  "nickname": "р. 16.09.1987","photo": "140.jpg"
+  "nickname": "р. 16.09.1987","photo": "alesenko-mikhail-16.jpg"
 }
 ,
   
@@ -896,7 +896,7 @@
 "class": "gender-2",
 "extra": {
   "id": "3",
-  "nickname": "р. 02.07.1987"
+  "nickname": "р. 02.07.1987","photo": "lena_min.jpg"
 }
 
         
@@ -924,7 +924,7 @@
 "class": "gender-2",
 "extra": {
   "id": "1",
-  "nickname": "р. 12.10.2010"
+  "nickname": "р. 12.10.2010","photo": "alesenko-olya-34.jpg"
 }
  
     
@@ -951,7 +951,7 @@
 "class": "gender-2",
 "extra": {
   "id": "2",
-  "nickname": "р. 12.07.2015"
+  "nickname": "р. 12.07.2015","photo": "alesenko-tatiana-m-10.jpg"
 }
  
     

@@ -16,7 +16,7 @@
 "class": "gender-2",
 "extra": {
   "id": "301",
-  "nickname": "р. 08.01.1939"
+  "nickname": " &#8224 08.01.1939 &mdash; 0 "
 }
 ,
 "textClass": "emphasis", 
@@ -33,7 +33,7 @@
 "class": "gender-2",
 "extra": {
   "id": "301",
-  "nickname": "р. 08.01.1939"
+  "nickname": " &#8224 08.01.1939 &mdash; 0 "
 }
 ,
   
@@ -84,7 +84,7 @@
 "class": "gender-1",
 "extra": {
   "id": "302",
-  "nickname": "р. 10.04.1964"
+  "nickname": "р. 10.04.1964","photo": "belyanin-neizvestnuy.jpg"
 }
 ,
   

@@ -16,7 +16,7 @@
 "class": "gender-1",
 "extra": {
   "id": "23",
-  "nickname": "р. 31.08.1991"
+  "nickname": "р. 31.08.1991","photo": "sereja.jpg"
 }
 ,
 "textClass": "emphasis", 
@@ -33,7 +33,7 @@
 "class": "gender-1",
 "extra": {
   "id": "23",
-  "nickname": "р. 31.08.1991"
+  "nickname": "р. 31.08.1991","photo": "sereja.jpg"
 }
  
   
