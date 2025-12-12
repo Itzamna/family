@@ -16,7 +16,7 @@
 "class": "gender-2",
 "extra": {
   "id": "357",
-  "nickname": "р. 31.10.1964"
+  "nickname": "р. 31.10.1964","photo": "belyaniny-1/belyanina-nina-3.jpg"
 }
 ,
 "textClass": "emphasis", 
@@ -33,7 +33,7 @@
 "class": "gender-2",
 "extra": {
   "id": "357",
-  "nickname": "р. 31.10.1964"
+  "nickname": "р. 31.10.1964","photo": "belyaniny-1/belyanina-nina-3.jpg"
 }
 ,
   
@@ -56,7 +56,7 @@
 "class": "gender-1",
 "extra": {
   "id": "302",
-  "nickname": "р. 10.04.1964","photo": "belyanin-neizvestnuy.jpg"
+  "nickname": "р. 10.04.1964","photo": "belyaniny-1/belyanina-sasha-mich-6.jpg"
 }
 
         

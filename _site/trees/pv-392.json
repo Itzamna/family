@@ -270,7 +270,7 @@
 "class": "gender-2",
 "extra": {
   "id": "18",
-  "nickname": " &#8224 10.06.1903 &mdash; 04.06.1961 ","photo": "240.png"
+  "nickname": " &#8224 10.06.1903 &mdash; 04.06.1961 ","photo": "belyaniny-1/belyanina-anna-stepanovna.jpg"
 }
 ,
   
@@ -1179,7 +1179,7 @@
      
 
 
-"name": "Капитанова Зинаида Егоровна",
+"name": "Белянина Зинаида Егоровна",
 "class": "gender-2",
 "extra": {
   "id": "481",
@@ -1623,7 +1623,7 @@
 "class": "gender-2",
 "extra": {
   "id": "452",
-  "nickname": " &#8224 15.07.1922 &mdash; 31.08.1998 "
+  "nickname": " &#8224 15.07.1922 &mdash; 31.08.1998 ","photo": "belyaniny-1/anikin-pavel-1989.jpg"
 }
 
         
@@ -1651,7 +1651,7 @@
 "class": "gender-2",
 "extra": {
   "id": "453",
-  "nickname": "р. 08.03.1947"
+  "nickname": "р. 08.03.1947","photo": "belyaniny-1/anikina-lyubov-1955.jpg"
 }
  
     
@@ -1678,7 +1678,7 @@
 "class": "gender-1",
 "extra": {
   "id": "454",
-  "nickname": " &#8224 01.04.1950 &mdash; 05.01.2021 "
+  "nickname": " &#8224 01.04.1950 &mdash; 05.01.2021 ","photo": "belyaniny-1/anikin-leonid-1955.jpg"
 }
 ,
   
@@ -2745,7 +2745,7 @@
 "class": "gender-1",
 "extra": {
   "id": "286",
-  "nickname": "р. 05.01.1938","photo": "286-1.png"
+  "nickname": "р. 05.01.1938","photo": "belyaniny-1/belyanin-michail.jpg"
 }
 ,
   
@@ -2796,7 +2796,7 @@
 "class": "gender-1",
 "extra": {
   "id": "302",
-  "nickname": "р. 10.04.1964","photo": "belyanin-neizvestnuy.jpg"
+  "nickname": "р. 10.04.1964","photo": "belyaniny-1/belyanina-sasha-mich-6.jpg"
 }
 ,
   
@@ -2819,7 +2819,7 @@
 "class": "gender-2",
 "extra": {
   "id": "357",
-  "nickname": "р. 31.10.1964"
+  "nickname": "р. 31.10.1964","photo": "belyaniny-1/belyanina-nina-3.jpg"
 }
 
         
@@ -2879,6 +2879,141 @@
     }
     
    ]
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Калашников Михаил Степанович",
+"class": "gender-1",
+"extra": {
+  "id": "518",
+  "nickname": " &#8224 03.11.1904 &mdash; 0 "
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Калашников Андрей Степанович",
+"class": "gender-1",
+"extra": {
+  "id": "519",
+  "nickname": " &#8224 13.08.1906 &mdash; 0 "
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Калашников Василий Степанович",
+"class": "gender-1",
+"extra": {
+  "id": "520",
+  "nickname": " &#8224 19.03.1913 &mdash; 0 "
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Калашников Георгий Степанович",
+"class": "gender-1",
+"extra": {
+  "id": "521",
+  "nickname": " &#8224 05.04.1915 &mdash; 0 "
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Калашников Александр Степанович",
+"class": "gender-1",
+"extra": {
+  "id": "522",
+  "nickname": " &#8224 12.06.1922 &mdash; 0 "
+}
  
     
     
