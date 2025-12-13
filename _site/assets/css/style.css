@@ -42,12 +42,12 @@ body.header-fixed-space-v2 {
 		padding-top: 0;
 	}
 }
-
+a,
 p,
 li,
 li a,
 label {
- color: #555;
+ color: #555 !important;
 }
 .card
 {

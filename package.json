@@ -26,5 +26,7 @@
     "json": "^11.0.0",
     "json-cli-helpers": "^0.1.0",
     "lodash": "^4.17.13"
-  }
+  },
+  "devDependencies": {},
+  "type": "commonjs"
 }

@@ -6,8 +6,11 @@ set -o pipefail
 
   
 wget -q -O- 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT768tbwxLtNTpy8K58KX--jHeRYaMJmv4pZJD4TxiWfSzD3K90NOTOqXNtfd0S2RS8HZ1Omh1-Rfz5/pub?gid=0&single=true&output=csv' > _data/family.csv
+#wget -q -O- 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT768tbwxLtNTpy8K58KX--jHeRYaMJmv4pZJD4TxiWfSzD3K90NOTOqXNtfd0S2RS8HZ1Omh1-Rfz5/pub?gid=341157212&single=true&output=csv' > _data/short-family.csv
+
 
 csvtojson _data/family.csv |
 	./node_modules/.bin/index-by menu |
 	./node_modules/.bin/json > _data/family.json
+  
   

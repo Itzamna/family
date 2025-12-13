@@ -1,0 +1,49 @@
+{% assign peop = include.rel | split: "," %}
+
+{% if (include.rel and include.rel != "#N/A" and include.rel != "FALSE" and
+include.rel != "0" ) %}
+
+{% assign cpeop = peop | size %}
+<tr class="table-active">
+  <td colspan="4">
+     <h3 class="text-primary-emphasis">{{include.header}} ({{cpeop}})</h3>
+  </td>
+</tr>
+{% for peop1 in peop %}
+{% if peop1 != nil %}
+{% assign peopname = site.data.family | where: "id", peop1| map: "name" %}
+{% assign peopsurname2 = site.data.family | where: "id", peop1| map: "surname2" %}
+{% assign peopphoto = site.data.family |where: "id", peop1| map: "photo" %}
+{% assign peopbd = site.data.family | where: "id", peop1| map: "birthdate" %}
+{% assign peopdd = site.data.family | where: "id", peop1| map: "deathdate" %}
+{% assign peopph = peopphoto[0] | split: "," |first %}
+
+<tr>
+  <td>
+    <a href="{{ site.url }}/pages/{{peop1}}.html">{{peopname}}{% if (peopsurname2[0] and peopsurname2[0] != "#N/A"
+      and peopsurname2[0] != "" and peopsurname2[0] != "0" )%} ({{peopsurname2}}){%else%}{% endif %}</a>
+  </td>
+  <td>
+&#10084; &#9829;
+    {% if peopph %}
+    <a href="{{ site.url }}/assets/img/photo/{{peopph}}" class="thickbox">
+      <img src="{{ site.url }}/assets/img/photo/{{peopph}}" class="img-fluid" height="60px">
+    </a>
+    {% endif %}
+  </td>
+  <td>
+    {% if peopbd%}{{peopbd}}{% endif %}
+  </td>
+  <td>
+    {% if peopdd[0] == "0"%}
+    &#8224; 
+    {% elsif  peopdd[0] and peopdd[0] != nil %}
+    &#8224; {{peopdd[0]}}
+    {%else%}
+    {% endif %}
+
+  </td>
+</tr>
+{% endif %}
+{% endfor %}
+{% endif %}
