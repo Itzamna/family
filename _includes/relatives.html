@@ -6,7 +6,7 @@ include.rel != "0" ) %}
 {% assign cpeop = peop | size %}
 <tr class="table-active">
   <td colspan="4">
-     <h3 class="text-primary-emphasis">{{include.header}} ({{cpeop}})</h3>
+     <h3 class="text-primary">{{include.header}} ({{cpeop}})</h3>
   </td>
 </tr>
 {% for peop1 in peop %}
@@ -24,7 +24,6 @@ include.rel != "0" ) %}
       and peopsurname2[0] != "" and peopsurname2[0] != "0" )%} ({{peopsurname2}}){%else%}{% endif %}</a>
   </td>
   <td>
-&#10084; &#9829;
     {% if peopph %}
     <a href="{{ site.url }}/assets/img/photo/{{peopph}}" class="thickbox">
       <img src="{{ site.url }}/assets/img/photo/{{peopph}}" class="img-fluid" height="60px">

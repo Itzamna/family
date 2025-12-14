@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Михаил",
+"class": "gender-1",
+"extra": {
+  "id": "230",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Михаил",
+"class": "gender-1",
+"extra": {
+  "id": "230",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Гордеева Дарья Васильевна",
+"class": "gender-2",
+"extra": {
+  "id": "96",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Ольга Михайловна",
+"class": "gender-2",
+"extra": {
+  "id": "228",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

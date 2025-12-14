@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Мария Леонидовна",
+"class": "gender-2",
+"extra": {
+  "id": "65",
+  "nickname": "","photo": "138.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Мария Леонидовна",
+"class": "gender-2",
+"extra": {
+  "id": "65",
+  "nickname": "","photo": "138.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Лунин Сергей",
+"class": "gender-1",
+"extra": {
+  "id": "97",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Лунин Алексей Сергеевич",
+"class": "gender-1",
+"extra": {
+  "id": "98",
+  "nickname": "","photo": "135.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

@@ -1,0 +1,189 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Гнатюк Николай Андреевич",
+"class": "gender-1",
+"extra": {
+  "id": "333",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гнатюк Николай Андреевич",
+"class": "gender-1",
+"extra": {
+  "id": "333",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Степкина Надежда Егоровна",
+"class": "gender-2",
+"extra": {
+  "id": "188",
+  "nickname": "р. 21.02.1960","photo": "264.png"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гнатюк Руслан Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "334",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гнатюк Илья Русланович",
+"class": "gender-1",
+"extra": {
+  "id": "336",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Гнатюк Антон Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "335",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

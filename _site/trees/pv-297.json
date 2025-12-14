@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Котунов Михаил Григорьевич",
+"class": "gender-1",
+"extra": {
+  "id": "297",
+  "nickname": "р. 08.08.1959","photo": "belyaniny-1/kotunov-mikhail.png"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Котунов Михаил Григорьевич",
+"class": "gender-1",
+"extra": {
+  "id": "297",
+  "nickname": "р. 08.08.1959","photo": "belyaniny-1/kotunov-mikhail.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "",
+"class": "gender-",
+"extra": {
+  "id": "0",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Котунов Роман Михайлович",
+"class": "gender-1",
+"extra": {
+  "id": "379",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

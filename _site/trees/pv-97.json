@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Лунин Сергей",
+"class": "gender-1",
+"extra": {
+  "id": "97",
+  "nickname": ""
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Лунин Сергей",
+"class": "gender-1",
+"extra": {
+  "id": "97",
+  "nickname": ""
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Алесенко Мария Леонидовна",
+"class": "gender-2",
+"extra": {
+  "id": "65",
+  "nickname": "","photo": "138.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Лунин Алексей Сергеевич",
+"class": "gender-1",
+"extra": {
+  "id": "98",
+  "nickname": "","photo": "135.jpg"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

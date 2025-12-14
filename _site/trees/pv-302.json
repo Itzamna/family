@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Белянин Александр Михайлович",
+"class": "gender-1",
+"extra": {
+  "id": "302",
+  "nickname": "р. 10.04.1964","photo": "belyaniny-1/belyanina-sasha-mich-5.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Белянин Александр Михайлович",
+"class": "gender-1",
+"extra": {
+  "id": "302",
+  "nickname": "р. 10.04.1964","photo": "belyaniny-1/belyanina-sasha-mich-5.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Белянина Нина Анатольевна",
+"class": "gender-2",
+"extra": {
+  "id": "357",
+  "nickname": "р. 31.10.1964","photo": "belyaniny-1/belyanina-nina-3.jpg"
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Белянин Анатолий Александрович",
+"class": "gender-1",
+"extra": {
+  "id": "358",
+  "nickname": "р. 21.02.1989"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

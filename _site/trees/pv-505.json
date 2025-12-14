@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Жукова Татьяна Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "505",
+  "nickname": "","photo": "bodrova-tatiana-stepanovna.png"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Жукова Татьяна Степановна",
+"class": "gender-2",
+"extra": {
+  "id": "505",
+  "nickname": "","photo": "bodrova-tatiana-stepanovna.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Жуков Евгений",
+"class": "gender-1",
+"extra": {
+  "id": "512",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Жуков Вячеслав Евгеньевич",
+"class": "gender-1",
+"extra": {
+  "id": "513",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

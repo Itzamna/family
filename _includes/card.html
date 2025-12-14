@@ -38,7 +38,7 @@
     </div>
   </div>
 
-  {% assign links = member.photo | split: "," | slice 1, 999 %}
+  {% assign links = member.photo | split: "," %}
 
   {% if links %}
   <div class="row">

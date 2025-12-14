@@ -1,0 +1,128 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Шатов Виктор Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "289",
+  "nickname": " &#8224 02.01.1950 &mdash; 25.02.1991 ","photo": "belyaniny-1/shatov-victor.jpg"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Шатов Виктор Николаевич",
+"class": "gender-1",
+"extra": {
+  "id": "289",
+  "nickname": " &#8224 02.01.1950 &mdash; 25.02.1991 ","photo": "belyaniny-1/shatov-victor.jpg"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Шатова Нина Михайловна",
+"class": "gender-2",
+"extra": {
+  "id": "290",
+  "nickname": " &#8224 11.02.1951 &mdash; 2021 "
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Шатов Юрий Викторович",
+"class": "gender-1",
+"extra": {
+  "id": "287",
+  "nickname": "р. 04.01.1975","photo": "shatov-yuriy.png"
+}
+ 
+    
+    
+    
+        },
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Шатов Роман Викторович",
+"class": "gender-1",
+"extra": {
+  "id": "288",
+  "nickname": "р. 24.06.1983"
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]

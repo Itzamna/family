@@ -1,0 +1,101 @@
+
+
+
+[{
+
+
+  
+      
+      
+      
+      
+     
+
+
+"name": "Панькин Василий Федорович",
+"class": "gender-1",
+"extra": {
+  "id": "48",
+  "nickname": " &#8224 10.04.1946 &mdash; 4.6.2011 ","photo": "195.png"
+}
+,
+"textClass": "emphasis", 
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Панькин Василий Федорович",
+"class": "gender-1",
+"extra": {
+  "id": "48",
+  "nickname": " &#8224 10.04.1946 &mdash; 4.6.2011 ","photo": "195.png"
+}
+,
+  
+
+  "marriages": [
+  
+   {
+      "spouse": {
+        
+          
+            
+      
+      
+      
+      
+     
+
+
+"name": "Панькина Римма",
+"class": "gender-2",
+"extra": {
+  "id": "265",
+  "nickname": ""
+}
+
+        
+      },
+ 
+      
+      "children": [
+      
+        {
+          
+    
+    
+    
+           
+   
+    
+      
+      
+      
+      
+     
+
+
+"name": "Панькина Ирина Васильевна",
+"class": "gender-2",
+"extra": {
+  "id": "266",
+  "nickname": ""
+}
+ 
+    
+    
+    
+        }
+        
+      ]
+    }
+    
+   ]
+ 
+  
+}]
